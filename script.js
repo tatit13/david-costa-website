@@ -1,35 +1,347 @@
-const dict={
-es:{
-nav_profile:"Perfil",nav_experience:"Experiencia",nav_skills:"Competencias",nav_qualifications:"Titulaciones",nav_career:"Objetivos",nav_contact:"Contacto",
-hero_kicker:"PROFESIONAL MARÍTIMO · CASTELLDEFELS, ESPAÑA",hero_role:"Operaciones de cubierta · Instrucción de kitesurf · Mantenimiento naval",hero_intro:"Profesional marítimo con amplia experiencia en operaciones con embarcaciones de salvamento, coordinación de servicios de socorrismo, instrucción de kitesurf y mantenimiento práctico de embarcaciones.",hero_button1:"Ver experiencia ↗",hero_button2:"Contactar",available:"Disponible para oportunidades marítimas",
-stat1:"Operaciones con embarcaciones de salvamento",stat2:"Instrucción náutica y mantenimiento de embarcaciones",statnote:".",
-about:"SOBRE DAVID",profile_title:"Un profesional marítimo práctico con la seguridad como prioridad.",profile1:"Soy un profesional tranquilo, responsable y proactivo, con una larga trayectoria en salvamento marítimo, seguridad acuática y actividades náuticas. Mi trabajo ha incluido el gobierno de embarcaciones de salvamento, la coordinación de servicios de socorrismo y la enseñanza de kitesurf a adultos y niños.",profile2:"Junto con mi experiencia operativa, he realizado trabajos prácticos de mantenimiento y reparación de embarcaciones pequeñas, incluidos trabajos con fibra de vidrio, reparación de cascos, aparejos y mantenimiento de instalaciones náuticas. Me gustan los trabajos manuales, asumo mis responsabilidades y estoy motivado para seguir desarrollando mi carrera en el mar.",profile3:"Busco incorporarme a una tripulación profesional en un puesto de marinero de cubierta o marinero polivalente, especialmente en embarcaciones de vela. También me interesa seguir desarrollando competencias técnicas en un departamento de máquinas.",
-career_history:"TRAYECTORIA PROFESIONAL",experience_title:"Experiencia basada en la responsabilidad.",experience_lead:"Una trayectoria que combina salvamento, coordinación de equipos, instrucción náutica y trabajos prácticos en embarcaciones.",leadership:"SEGURIDAD MARÍTIMA Y LIDERAZGO",coord_title:"Coordinador del Servicio de Salvamento y Socorrismo",coord_desc:"Coordinación del servicio de salvamento y socorrismo en playa, con participación en la organización operativa, coordinación del equipo, prevención y respuesta ante incidentes en un entorno costero.",vessel_ops:"OPERACIONES CON EMBARCACIONES",skipper_title:"Patrón de Embarcación de Salvamento",skipper_desc:"Patrón de embarcaciones de salvamento en apoyo a las operaciones de seguridad en playa y medio acuático, con responsabilidad en el gobierno de la embarcación y apoyo operativo durante los rescates.",instructor_title:"Instructor de Kitesurf",instructor_desc:"Impartición de clases de kitesurf a alumnos, incluidos niños, apoyando el aprendizaje práctico y la participación segura en actividades náuticas.",maintenance_title:"Mantenimiento y Reparación de Embarcaciones",maintenance_desc:"Mantenimiento de instalaciones náuticas y reparación de embarcaciones pequeñas, incluidos trabajos con fibra de vidrio, reparación de cascos y mantenimiento de aparejos y elementos asociados.",trainer_title:"Formador de Rescate con Moto de Agua",trainer_desc:"Impartición de formación de rescate mediante operaciones con motos de agua durante 2024, 2025 y 2026.",lifeguard_title:"Socorrista en Espacios Naturales",various:"Diferentes entornos acuáticos naturales",lifeguard_desc:"Experiencia profesional de socorrismo en espacios acuáticos naturales, centrada en la prevención, vigilancia y respuesta ante emergencias acuáticas.",animal_title:"Cuidador de Animales Marinos",animal_desc:"Trabajo en el cuidado de animales marinos.",rope_title:"Trabajos Verticales y en Altura",rope_desc:"Realización de trabajos verticales y en altura.",
-capabilities:"QUÉ PUEDO APORTAR",skills_title:"Competencias prácticas en cubierta, mantenimiento y seguridad.",deck_title:"Cubierta y Actividades de Kitesurf",deck_desc:"Experiencia impartiendo kitesurf y apoyando actividades náuticas. Objetivo de desarrollar experiencia profesional a bordo de veleros.",marine_title:"Mantenimiento Naval",marine_desc:"Trabajo práctico en mantenimiento de instalaciones náuticas y reparación de embarcaciones pequeñas, incluyendo fibra de vidrio, cascos, botes y aparejos. Este perfil no atribuye experiencia en mantenimiento de motores.",rescue_title:"Operaciones de Salvamento y Seguridad",rescue_desc:"Experiencia como patrón de embarcaciones de salvamento y coordinador de servicios de socorrismo, respaldada por trayectoria como socorrista y formador de rescate.",technical_title:"Desarrollo Técnico",technical_desc:"Interés en desarrollarse en un departamento de máquinas o técnico. La titulación de Marinero de Máquinas de la Marina Mercante está pendiente de completar los días de navegación requeridos.",
-certs:"CERTIFICADOS Y FORMACIÓN",qual_title:"Titulaciones y desarrollo profesional.",qual_lead:"La formación y los certificados se presentan según el estado indicado en el CV facilitado.",completed:"Formación indicada como completada",pending:"Pendiente de días de navegación",pending_note:"Pendiente de completar los días de navegación requeridos",pending_disclaimer:"Estas dos titulaciones no se presentan como completadas. Su obtención está pendiente de cumplir los días de navegación exigidos.",additional:"Formación adicional",cert_basic_safety:"Formación Básica en Seguridad Marítima (STCW)",cert_port_skippers:"Patrón Portuario",cert_gmdss:"Certificado de Operador Restringido del SMSSM",cert_medical:"Formación Sanitaria Específica Inicial",cert_survival_craft:"Embarcaciones de supervivencia y botes de rescate (excepto botes de rescate rápidos)",cert_fast_rescue:"Botes de rescate rápidos",cert_passenger:"Buques de pasaje",cert_per:"Patrón de Embarcaciones de Recreo (PER)",cert_nav_watch:"Marinero de Puente de la Marina Mercante",cert_engine_watch:"Marinero de Máquinas de la Marina Mercante",cert_lifeguard:"Socorrista de espacios naturales",cert_beach_rescue:"Rescate en playa con embarcaciones",cert_aed:"Uso del Desfibrilador Externo Automático (DEA)",cert_diver:"Buceador de aguas abiertas (Open Water Diver)",cert_rope:"ANETVA — Trabajos verticales y trabajos en altura",cert_welding:"Soldadura de chapa fina",languages:"Idiomas",spanish_native:"Español — Nativo",catalan_native:"Catalán — Nativo",english_basic:"Inglés — Básico",italian_basic:"Italiano — Básico",
-next_step:"PRÓXIMO PASO PROFESIONAL",career_title:"Preparado para contribuir. Motivado para seguir aprendiendo.",career_intro:"Busco incorporarme a una tripulación marítima profesional donde pueda aportar mi experiencia operativa, mis habilidades prácticas de mantenimiento y mi enfoque centrado en la seguridad.",sailing_crew:"Tripulación de velero",sailing_crew_desc:"Marinero de cubierta / tripulación polivalente",deck_dept:"Departamento de cubierta",deck_dept_desc:"Marinero / operaciones marítimas",engine_room:"Sala de máquinas / Técnico",engine_room_desc:"Oportunidad de entrada con desarrollo posterior",career_disclaimer:"No se declara experiencia profesional en vela; trabajar en tripulaciones de velero es un objetivo profesional. La sala de máquinas es un área de interés y desarrollo; no se declara experiencia profesional en dicha área.",
-docs:"DOCUMENTACIÓN",professional_info:"INFORMACIÓN PROFESIONAL",documents_title:"CV y documentos.",cv_title:"Currículum Vitae",cv_desc:"Experiencia profesional, titulaciones marítimas y formación adicional.",cv_button:"Ver CV ↗",doc_hint:"Añade el CV PDF de cada idioma a la carpeta documents antes de publicar.",
-enquiries:"CONSULTAS PROFESIONALES",contact_title:"Hablemos de tu próxima oportunidad a bordo.",contact_desc:"Disponible para conversar sobre puestos marítimos, oportunidades como marinero y desarrollo profesional.",footer:"Perfil profesional marítimo · Cubierta · Salvamento · Mantenimiento",top:"VOLVER ARRIBA ↑"
-},
-ca:{
-nav_profile:"Perfil",nav_experience:"Experiència",nav_skills:"Competències",nav_qualifications:"Titulacions",nav_career:"Objectius",nav_contact:"Contacte",
-hero_kicker:"PROFESSIONAL MARÍTIM · CASTELLDEFELS, ESPANYA",hero_role:"Operacions de coberta · Instrucció de kitesurf · Manteniment naval",hero_intro:"Professional marítim amb àmplia experiència en operacions amb embarcacions de salvament, coordinació de serveis de socorrisme, instrucció de kitesurf i manteniment pràctic d'embarcacions.",hero_button1:"Veure experiència ↗",hero_button2:"Contactar",available:"Disponible per a oportunitats marítimes",
-stat1:"Operacions amb embarcacions de salvament",stat2:"Instrucció nàutica i manteniment d'embarcacions",statnote:"Períodes indicats segons el CV facilitat.",
-about:"SOBRE DAVID",profile_title:"Un professional marítim pràctic amb la seguretat com a prioritat.",profile1:"Soc un professional tranquil, responsable i proactiu, amb una llarga trajectòria en salvament marítim, seguretat aquàtica i activitats nàutiques. La meva feina ha inclòs el govern d'embarcacions de salvament, la coordinació de serveis de socorrisme i l'ensenyament de kitesurf a adults i infants.",profile2:"Juntament amb la meva experiència operativa, he fet treballs pràctics de manteniment i reparació d'embarcacions petites, incloent-hi treballs amb fibra de vidre, reparació de cascos, aparells i manteniment d'instal·lacions nàutiques. M'agraden els treballs manuals, assumeixo les meves responsabilitats i estic motivat per continuar desenvolupant la meva carrera al mar.",profile3:"Busco incorporar-me a una tripulació professional en un lloc de mariner de coberta o mariner polivalent, especialment en embarcacions de vela. També m'interessa continuar desenvolupant competències tècniques en un departament de màquines.",
-career_history:"TRAJECTÒRIA PROFESSIONAL",experience_title:"Experiència basada en la responsabilitat.",experience_lead:"Una trajectòria que combina salvament, coordinació d'equips, instrucció nàutica i treballs pràctics en embarcacions.",leadership:"SEGURETAT MARÍTIMA I LIDERATGE",coord_title:"Coordinador del Servei de Salvament i Socorrisme",coord_desc:"Coordinació del servei de salvament i socorrisme a la platja, amb participació en l'organització operativa, coordinació de l'equip, prevenció i resposta davant d'incidents en un entorn costaner.",vessel_ops:"OPERACIONS AMB EMBARCACIONS",skipper_title:"Patró d'Embarcació de Salvament",skipper_desc:"Patró d'embarcacions de salvament en suport a les operacions de seguretat a la platja i al medi aquàtic, amb responsabilitat en el govern de l'embarcació i suport operatiu durant els rescats.",instructor_title:"Instructor de Kitesurf",instructor_desc:"Impartició de classes de kitesurf a alumnes, inclosos infants, donant suport a l'aprenentatge pràctic i a la participació segura en activitats nàutiques.",maintenance_title:"Manteniment i Reparació d'Embarcacions",maintenance_desc:"Manteniment d'instal·lacions nàutiques i reparació d'embarcacions petites, incloent-hi treballs amb fibra de vidre, reparació de cascos i manteniment d'aparells i elements associats.",trainer_title:"Formador de Salvament amb Moto d'Aigua",trainer_desc:"Impartició de formació de salvament mitjançant operacions amb motos d'aigua durant els anys 2024, 2025 i 2026.",lifeguard_title:"Socorrista en Espais Naturals",various:"Diferents entorns aquàtics naturals",lifeguard_desc:"Experiència professional de socorrisme en espais aquàtics naturals, centrada en la prevenció, vigilància i resposta davant d'emergències aquàtiques.",animal_title:"Cuidador d'Animals Marins",animal_desc:"Feina en la cura d'animals marins.",rope_title:"Treballs Verticals i en Alçada",rope_desc:"Realització de treballs verticals i en alçada.",
-capabilities:"QUÈ PUC APORTAR",skills_title:"Competències pràctiques en coberta, manteniment i seguretat.",deck_title:"Coberta i Activitats de Kitesurf",deck_desc:"Experiència impartint kitesurf i donant suport a activitats nàutiques. Objectiu de desenvolupar experiència professional a bord de velers.",marine_title:"Manteniment Naval",marine_desc:"Treball pràctic en manteniment d'instal·lacions nàutiques i reparació d'embarcacions petites, incloent-hi fibra de vidre, cascos, bots i aparells. Aquest perfil no atribueix experiència en manteniment de motors.",rescue_title:"Operacions de Salvament i Seguretat",rescue_desc:"Experiència com a patró d'embarcacions de salvament i coordinador de serveis de socorrisme, avalada per la trajectòria com a socorrista i formador de salvament.",technical_title:"Desenvolupament Tècnic",technical_desc:"Interès a desenvolupar-se en un departament de màquines o tècnic. La titulació de Mariner de Màquines de la Marina Mercant està pendent de completar els dies de navegació requerits.",
-certs:"CERTIFICATS I FORMACIÓ",qual_title:"Titulacions i desenvolupament professional.",qual_lead:"La formació i els certificats es presenten segons l'estat indicat al CV facilitat.",completed:"Formació indicada com a completada",pending:"Pendent de dies de navegació",pending_note:"Pendent de completar els dies de navegació requerits",pending_disclaimer:"Aquestes dues titulacions no es presenten com a completades. La seva obtenció està pendent de complir els dies de navegació exigits.",additional:"Formació addicional",cert_basic_safety:"Formació Bàsica en Seguretat Marítima (STCW)",cert_port_skippers:"Patró Portuari",cert_gmdss:"Certificat d'Operador Restringit del SMSSM",cert_medical:"Formació Sanitària Específica Inicial",cert_survival_craft:"Embarcacions de supervivència i bots de rescat (excepte bots de rescat ràpids)",cert_fast_rescue:"Bots de rescat ràpids",cert_passenger:"Vaixells de passatge",cert_per:"Patró d'Embarcacions d'Esbarjo (PER)",cert_nav_watch:"Mariner de Pont de la Marina Mercant",cert_engine_watch:"Mariner de Màquines de la Marina Mercant",cert_lifeguard:"Socorrista en espais naturals",cert_beach_rescue:"Rescat a la platja amb embarcacions",cert_aed:"Ús del Desfibril·lador Extern Automàtic (DEA)",cert_diver:"Bussejador d'aigües obertes (Open Water Diver)",cert_rope:"ANETVA — Treballs verticals i treballs en alçada",cert_welding:"Soldadura de xapa fina",languages:"Idiomes",spanish_native:"Castellà — Nadiu",catalan_native:"Català — Nadiu",english_basic:"Anglès — Bàsic",italian_basic:"Italià — Bàsic",
-next_step:"PRÒXIM PAS PROFESSIONAL",career_title:"Preparat per contribuir. Motivat per continuar aprenent.",career_intro:"Busco incorporar-me a una tripulació marítima professional on pugui aportar la meva experiència operativa, les meves habilitats pràctiques de manteniment i el meu enfocament centrat en la seguretat.",sailing_crew:"Tripulació de veler",sailing_crew_desc:"Mariner de coberta / tripulació polivalent",deck_dept:"Departament de coberta",deck_dept_desc:"Mariner / operacions marítimes",engine_room:"Sala de màquines / Tècnic",engine_room_desc:"Oportunitat d'entrada amb desenvolupament posterior",career_disclaimer:"No es declara experiència professional en vela; treballar en tripulacions de veler és un objectiu professional. La sala de màquines és una àrea d'interès i desenvolupament; no es declara experiència professional en aquesta àrea.",
-docs:"DOCUMENTACIÓ",professional_info:"INFORMACIÓ PROFESSIONAL",documents_title:"CV i documents.",cv_title:"Currículum Vitae",cv_desc:"Experiència professional, titulacions marítimes i formació addicional.",cv_button:"Veure CV ↗",doc_hint:"Afegeix el CV PDF de cada idioma a la carpeta documents abans de publicar.",
-enquiries:"CONSULTES PROFESSIONALS",contact_title:"Parlem de la teva pròxima oportunitat a bord.",contact_desc:"Disponible per parlar sobre llocs de treball marítims, oportunitats com a mariner i desenvolupament professional.",footer:"Perfil professional marítim · Coberta · Salvament · Manteniment",top:"TORNAR A DALT ↑"
-}};
-const $=s=>document.querySelector(s), menu=$(".menu"), links=$("#links"), lang=$(".lang"), langBtn=$(".lang-toggle"), theme=$(".theme");
-let language="en";
-function setLanguage(code){language=code;document.documentElement.lang=code;document.querySelectorAll("[data-t]").forEach(el=>{if(!el.dataset.original)el.dataset.original=el.textContent;el.textContent=code==="en"?el.dataset.original:(dict[code][el.dataset.t]||el.dataset.original)});langBtn.textContent=code.toUpperCase()+" ▾";const paths={en:"documents/CV.pdf",es:"documents/CV-ES.pdf",ca:"documents/CV-CA.pdf"};document.querySelector('[data-document="cv"]').href=paths[code];try{localStorage.setItem("david-language",code)}catch(e){};setThemeLabel()}
-function setThemeLabel(){const dark=document.body.classList.contains("dark");theme.innerHTML=dark?"☀ <span>"+({en:"Light",es:"Claro",ca:"Clar"}[language])+"</span>":"☾ <span>"+({en:"Dark",es:"Oscuro",ca:"Fosc"}[language])+"</span>";theme.setAttribute("aria-pressed",String(dark))}
-menu.addEventListener("click",()=>{const open=links.classList.toggle("active");menu.setAttribute("aria-expanded",String(open))});
-document.querySelectorAll('#links a').forEach(a=>a.addEventListener("click",()=>{links.classList.remove("active");menu.setAttribute("aria-expanded","false");lang.classList.remove("open")}));
-langBtn.addEventListener("click",()=>{const open=lang.classList.toggle("open");langBtn.setAttribute("aria-expanded",String(open))});
-document.querySelectorAll("[data-lang]").forEach(b=>b.addEventListener("click",()=>{setLanguage(b.dataset.lang);lang.classList.remove("open");links.classList.remove("active");menu.setAttribute("aria-expanded","false")}));
-theme.addEventListener("click",()=>{document.body.classList.toggle("dark");try{localStorage.setItem("david-theme",document.body.classList.contains("dark")?"dark":"light")}catch(e){}setThemeLabel()});
-try{if(localStorage.getItem("david-theme")==="dark")document.body.classList.add("dark");setLanguage(localStorage.getItem("david-language")||"en")}catch(e){setLanguage("en")}setThemeLabel();
+const dict = {
+  es: {
+    nav_profile: "Perfil",
+    nav_experience: "Experiencia",
+    nav_skills: "Competencias",
+    nav_qualifications: "Titulaciones",
+    nav_career: "Objetivos",
+    nav_contact: "Contacto",
+    hero_kicker: "PROFESIONAL MARÍTIMO · CASTELLDEFELS, ESPAÑA",
+    hero_role:
+      "Operaciones de cubierta · Instrucción de kitesurf · Mantenimiento naval",
+    hero_intro:
+      "Profesional marítimo con amplia experiencia en operaciones con embarcaciones de salvamento, coordinación de servicios de socorrismo, instrucción de kitesurf y mantenimiento práctico de embarcaciones.",
+    hero_button1: "Ver experiencia ↗",
+    hero_button2: "Contactar",
+    available: "Disponible para oportunidades marítimas",
+    stat1: "Operaciones con embarcaciones de salvamento",
+    stat2: "Instrucción náutica y mantenimiento de embarcaciones",
+    statnote: ".",
+    about: "SOBRE DAVID",
+    profile_title:
+      "Un profesional marítimo práctico con la seguridad como prioridad.",
+    profile1:
+      "Soy un profesional tranquilo, responsable y proactivo, con una larga trayectoria en salvamento marítimo, seguridad acuática y actividades náuticas. Mi trabajo ha incluido el gobierno de embarcaciones de salvamento, la coordinación de servicios de socorrismo y la enseñanza de kitesurf a adultos y niños.",
+    profile2:
+      "Junto con mi experiencia operativa, he realizado trabajos prácticos de mantenimiento y reparación de embarcaciones pequeñas, incluidos trabajos con fibra de vidrio, reparación de cascos, aparejos y mantenimiento de instalaciones náuticas. Me gustan los trabajos manuales, asumo mis responsabilidades y estoy motivado para seguir desarrollando mi carrera en el mar.",
+    profile3:
+      "Busco incorporarme a una tripulación profesional en un puesto de marinero de cubierta o marinero polivalente, especialmente en embarcaciones de vela. También me interesa seguir desarrollando competencias técnicas en un departamento de máquinas.",
+    career_history: "TRAYECTORIA PROFESIONAL",
+    experience_title: "Experiencia basada en la responsabilidad.",
+    experience_lead:
+      "Una trayectoria que combina salvamento, coordinación de equipos, instrucción náutica y trabajos prácticos en embarcaciones.",
+    leadership: "SEGURIDAD MARÍTIMA Y LIDERAZGO",
+    coord_title: "Coordinador del Servicio de Salvamento y Socorrismo",
+    coord_desc:
+      "Coordinación del servicio de salvamento y socorrismo en playa, con participación en la organización operativa, coordinación del equipo, prevención y respuesta ante incidentes en un entorno costero.",
+    vessel_ops: "OPERACIONES CON EMBARCACIONES",
+    skipper_title: "Patrón de Embarcación de Salvamento",
+    skipper_desc:
+      "Patrón de embarcaciones de salvamento en apoyo a las operaciones de seguridad en playa y medio acuático, con responsabilidad en el gobierno de la embarcación y apoyo operativo durante los rescates.",
+    instructor_title: "Instructor de Kitesurf",
+    instructor_desc:
+      "Impartición de clases de kitesurf a alumnos, incluidos niños, apoyando el aprendizaje práctico y la participación segura en actividades náuticas.",
+    maintenance_title: "Mantenimiento y Reparación de Embarcaciones",
+    maintenance_desc:
+      "Mantenimiento de instalaciones náuticas y reparación de embarcaciones pequeñas, incluidos trabajos con fibra de vidrio, reparación de cascos y mantenimiento de aparejos y elementos asociados.",
+    trainer_title: "Formador de Rescate con Moto de Agua",
+    trainer_desc:
+      "Impartición de formación de rescate mediante operaciones con motos de agua durante 2024, 2025 y 2026.",
+    lifeguard_title: "Socorrista en Espacios Naturales",
+    various: "Diferentes entornos acuáticos naturales",
+    lifeguard_desc:
+      "Experiencia profesional de socorrismo en espacios acuáticos naturales, centrada en la prevención, vigilancia y respuesta ante emergencias acuáticas.",
+    animal_title: "Cuidador de Animales Marinos",
+    animal_desc: "Trabajo en el cuidado de animales marinos.",
+    rope_title: "Trabajos Verticales y en Altura",
+    rope_desc: "Realización de trabajos verticales y en altura.",
+    capabilities: "QUÉ PUEDO APORTAR",
+    skills_title:
+      "Competencias prácticas en cubierta, mantenimiento y seguridad.",
+    deck_title: "Cubierta y Actividades de Kitesurf",
+    deck_desc:
+      "Experiencia impartiendo kitesurf y apoyando actividades náuticas. Objetivo de desarrollar experiencia profesional a bordo de veleros.",
+    marine_title: "Mantenimiento Naval",
+    marine_desc:
+      "Trabajo práctico en mantenimiento de instalaciones náuticas y reparación de embarcaciones pequeñas, incluyendo fibra de vidrio, cascos, botes y aparejos. Este perfil no atribuye experiencia en mantenimiento de motores.",
+    rescue_title: "Operaciones de Salvamento y Seguridad",
+    rescue_desc:
+      "Experiencia como patrón de embarcaciones de salvamento y coordinador de servicios de socorrismo, respaldada por trayectoria como socorrista y formador de rescate.",
+    technical_title: "Desarrollo Técnico",
+    technical_desc:
+      "Interés en desarrollarse en un departamento de máquinas o técnico. La titulación de Marinero de Máquinas de la Marina Mercante está pendiente de completar los días de navegación requeridos.",
+    certs: "CERTIFICADOS Y FORMACIÓN",
+    qual_title: "Titulaciones y desarrollo profesional.",
+    qual_lead:
+      "La formación y los certificados se presentan según el estado indicado en el CV facilitado.",
+    completed: "Formación indicada como completada",
+    pending: "Pendiente de días de navegación",
+    pending_note: "Pendiente de completar los días de navegación requeridos",
+    pending_disclaimer:
+      "Estas dos titulaciones no se presentan como completadas. Su obtención está pendiente de cumplir los días de navegación exigidos.",
+    additional: "Formación adicional",
+    cert_basic_safety: "Formación Básica en Seguridad Marítima (STCW)",
+    cert_port_skippers: "Patrón Portuario",
+    cert_gmdss: "Certificado de Operador Restringido del SMSSM",
+    cert_medical: "Formación Sanitaria Específica Inicial",
+    cert_survival_craft:
+      "Embarcaciones de supervivencia y botes de rescate (excepto botes de rescate rápidos)",
+    cert_fast_rescue: "Botes de rescate rápidos",
+    cert_passenger: "Buques de pasaje",
+    cert_per: "Patrón de Embarcaciones de Recreo (PER)",
+    cert_nav_watch: "Marinero de Puente de la Marina Mercante",
+    cert_engine_watch: "Marinero de Máquinas de la Marina Mercante",
+    cert_lifeguard: "Socorrista de espacios naturales",
+    cert_beach_rescue: "Rescate en playa con embarcaciones",
+    cert_aed: "Uso del Desfibrilador Externo Automático (DEA)",
+    cert_diver: "Buceador de aguas abiertas (Open Water Diver)",
+    cert_rope: "ANETVA — Trabajos verticales y trabajos en altura",
+    cert_welding: "Soldadura de chapa fina",
+    languages: "Idiomas",
+    spanish_native: "Español — Nativo",
+    catalan_native: "Catalán — Nativo",
+    english_basic: "Inglés — Básico",
+    italian_basic: "Italiano — Básico",
+    next_step: "PRÓXIMO PASO PROFESIONAL",
+    career_title:
+      "Preparado para contribuir. Motivado para seguir aprendiendo.",
+    career_intro:
+      "Busco incorporarme a una tripulación marítima profesional donde pueda aportar mi experiencia operativa, mis habilidades prácticas de mantenimiento y mi enfoque centrado en la seguridad.",
+    sailing_crew: "Tripulación de velero",
+    sailing_crew_desc: "Marinero de cubierta / tripulación polivalente",
+    deck_dept: "Departamento de cubierta",
+    deck_dept_desc: "Marinero / operaciones marítimas",
+    engine_room: "Sala de máquinas / Técnico",
+    engine_room_desc: "Oportunidad de entrada con desarrollo posterior",
+    career_disclaimer:
+      "No se declara experiencia profesional en vela; trabajar en tripulaciones de velero es un objetivo profesional. La sala de máquinas es un área de interés y desarrollo; no se declara experiencia profesional en dicha área.",
+    docs: "DOCUMENTACIÓN",
+    professional_info: "INFORMACIÓN PROFESIONAL",
+    documents_title: "CV y documentos.",
+    cv_title: "Currículum Vitae",
+    cv_desc:
+      "Experiencia profesional, titulaciones marítimas y formación adicional.",
+    cv_button: "Ver CV ↗",
+    doc_hint:
+      "Añade el CV PDF de cada idioma a la carpeta documents antes de publicar.",
+    enquiries: "CONSULTAS PROFESIONALES",
+    contact_title: "Hablemos de tu próxima oportunidad a bordo.",
+    contact_desc:
+      "Disponible para conversar sobre puestos marítimos, oportunidades como marinero y desarrollo profesional.",
+    footer:
+      "Perfil profesional marítimo · Cubierta · Salvamento · Mantenimiento",
+    top: "VOLVER ARRIBA ↑",
+  },
+  ca: {
+    nav_profile: "Perfil",
+    nav_experience: "Experiència",
+    nav_skills: "Competències",
+    nav_qualifications: "Titulacions",
+    nav_career: "Objectius",
+    nav_contact: "Contacte",
+    hero_kicker: "PROFESSIONAL MARÍTIM · CASTELLDEFELS, ESPANYA",
+    hero_role:
+      "Operacions de coberta · Instrucció de kitesurf · Manteniment naval",
+    hero_intro:
+      "Professional marítim amb àmplia experiència en operacions amb embarcacions de salvament, coordinació de serveis de socorrisme, instrucció de kitesurf i manteniment pràctic d'embarcacions.",
+    hero_button1: "Veure experiència ↗",
+    hero_button2: "Contactar",
+    available: "Disponible per a oportunitats marítimes",
+    stat1: "Operacions amb embarcacions de salvament",
+    stat2: "Instrucció nàutica i manteniment d'embarcacions",
+    statnote: "Períodes indicats segons el CV facilitat.",
+    about: "SOBRE DAVID",
+    profile_title:
+      "Un professional marítim pràctic amb la seguretat com a prioritat.",
+    profile1:
+      "Soc un professional tranquil, responsable i proactiu, amb una llarga trajectòria en salvament marítim, seguretat aquàtica i activitats nàutiques. La meva feina ha inclòs el govern d'embarcacions de salvament, la coordinació de serveis de socorrisme i l'ensenyament de kitesurf a adults i infants.",
+    profile2:
+      "Juntament amb la meva experiència operativa, he fet treballs pràctics de manteniment i reparació d'embarcacions petites, incloent-hi treballs amb fibra de vidre, reparació de cascos, aparells i manteniment d'instal·lacions nàutiques. M'agraden els treballs manuals, assumeixo les meves responsabilitats i estic motivat per continuar desenvolupant la meva carrera al mar.",
+    profile3:
+      "Busco incorporar-me a una tripulació professional en un lloc de mariner de coberta o mariner polivalent, especialment en embarcacions de vela. També m'interessa continuar desenvolupant competències tècniques en un departament de màquines.",
+    career_history: "TRAJECTÒRIA PROFESSIONAL",
+    experience_title: "Experiència basada en la responsabilitat.",
+    experience_lead:
+      "Una trajectòria que combina salvament, coordinació d'equips, instrucció nàutica i treballs pràctics en embarcacions.",
+    leadership: "SEGURETAT MARÍTIMA I LIDERATGE",
+    coord_title: "Coordinador del Servei de Salvament i Socorrisme",
+    coord_desc:
+      "Coordinació del servei de salvament i socorrisme a la platja, amb participació en l'organització operativa, coordinació de l'equip, prevenció i resposta davant d'incidents en un entorn costaner.",
+    vessel_ops: "OPERACIONS AMB EMBARCACIONS",
+    skipper_title: "Patró d'Embarcació de Salvament",
+    skipper_desc:
+      "Patró d'embarcacions de salvament en suport a les operacions de seguretat a la platja i al medi aquàtic, amb responsabilitat en el govern de l'embarcació i suport operatiu durant els rescats.",
+    instructor_title: "Instructor de Kitesurf",
+    instructor_desc:
+      "Impartició de classes de kitesurf a alumnes, inclosos infants, donant suport a l'aprenentatge pràctic i a la participació segura en activitats nàutiques.",
+    maintenance_title: "Manteniment i Reparació d'Embarcacions",
+    maintenance_desc:
+      "Manteniment d'instal·lacions nàutiques i reparació d'embarcacions petites, incloent-hi treballs amb fibra de vidre, reparació de cascos i manteniment d'aparells i elements associats.",
+    trainer_title: "Formador de Salvament amb Moto d'Aigua",
+    trainer_desc:
+      "Impartició de formació de salvament mitjançant operacions amb motos d'aigua durant els anys 2024, 2025 i 2026.",
+    lifeguard_title: "Socorrista en Espais Naturals",
+    various: "Diferents entorns aquàtics naturals",
+    lifeguard_desc:
+      "Experiència professional de socorrisme en espais aquàtics naturals, centrada en la prevenció, vigilància i resposta davant d'emergències aquàtiques.",
+    animal_title: "Cuidador d'Animals Marins",
+    animal_desc: "Feina en la cura d'animals marins.",
+    rope_title: "Treballs Verticals i en Alçada",
+    rope_desc: "Realització de treballs verticals i en alçada.",
+    capabilities: "QUÈ PUC APORTAR",
+    skills_title:
+      "Competències pràctiques en coberta, manteniment i seguretat.",
+    deck_title: "Coberta i Activitats de Kitesurf",
+    deck_desc:
+      "Experiència impartint kitesurf i donant suport a activitats nàutiques. Objectiu de desenvolupar experiència professional a bord de velers.",
+    marine_title: "Manteniment Naval",
+    marine_desc:
+      "Treball pràctic en manteniment d'instal·lacions nàutiques i reparació d'embarcacions petites, incloent-hi fibra de vidre, cascos, bots i aparells. Aquest perfil no atribueix experiència en manteniment de motors.",
+    rescue_title: "Operacions de Salvament i Seguretat",
+    rescue_desc:
+      "Experiència com a patró d'embarcacions de salvament i coordinador de serveis de socorrisme, avalada per la trajectòria com a socorrista i formador de salvament.",
+    technical_title: "Desenvolupament Tècnic",
+    technical_desc:
+      "Interès a desenvolupar-se en un departament de màquines o tècnic. La titulació de Mariner de Màquines de la Marina Mercant està pendent de completar els dies de navegació requerits.",
+    certs: "CERTIFICATS I FORMACIÓ",
+    qual_title: "Titulacions i desenvolupament professional.",
+    qual_lead:
+      "La formació i els certificats es presenten segons l'estat indicat al CV facilitat.",
+    completed: "Formació indicada com a completada",
+    pending: "Pendent de dies de navegació",
+    pending_note: "Pendent de completar els dies de navegació requerits",
+    pending_disclaimer:
+      "Aquestes dues titulacions no es presenten com a completades. La seva obtenció està pendent de complir els dies de navegació exigits.",
+    additional: "Formació addicional",
+    cert_basic_safety: "Formació Bàsica en Seguretat Marítima (STCW)",
+    cert_port_skippers: "Patró Portuari",
+    cert_gmdss: "Certificat d'Operador Restringit del SMSSM",
+    cert_medical: "Formació Sanitària Específica Inicial",
+    cert_survival_craft:
+      "Embarcacions de supervivència i bots de rescat (excepte bots de rescat ràpids)",
+    cert_fast_rescue: "Bots de rescat ràpids",
+    cert_passenger: "Vaixells de passatge",
+    cert_per: "Patró d'Embarcacions d'Esbarjo (PER)",
+    cert_nav_watch: "Mariner de Pont de la Marina Mercant",
+    cert_engine_watch: "Mariner de Màquines de la Marina Mercant",
+    cert_lifeguard: "Socorrista en espais naturals",
+    cert_beach_rescue: "Rescat a la platja amb embarcacions",
+    cert_aed: "Ús del Desfibril·lador Extern Automàtic (DEA)",
+    cert_diver: "Bussejador d'aigües obertes (Open Water Diver)",
+    cert_rope: "ANETVA — Treballs verticals i treballs en alçada",
+    cert_welding: "Soldadura de xapa fina",
+    languages: "Idiomes",
+    spanish_native: "Castellà — Nadiu",
+    catalan_native: "Català — Nadiu",
+    english_basic: "Anglès — Bàsic",
+    italian_basic: "Italià — Bàsic",
+    next_step: "PRÒXIM PAS PROFESSIONAL",
+    career_title: "Preparat per contribuir. Motivat per continuar aprenent.",
+    career_intro:
+      "Busco incorporar-me a una tripulació marítima professional on pugui aportar la meva experiència operativa, les meves habilitats pràctiques de manteniment i el meu enfocament centrat en la seguretat.",
+    sailing_crew: "Tripulació de veler",
+    sailing_crew_desc: "Mariner de coberta / tripulació polivalent",
+    deck_dept: "Departament de coberta",
+    deck_dept_desc: "Mariner / operacions marítimes",
+    engine_room: "Sala de màquines / Tècnic",
+    engine_room_desc: "Oportunitat d'entrada amb desenvolupament posterior",
+    career_disclaimer:
+      "No es declara experiència professional en vela; treballar en tripulacions de veler és un objectiu professional. La sala de màquines és una àrea d'interès i desenvolupament; no es declara experiència professional en aquesta àrea.",
+    docs: "DOCUMENTACIÓ",
+    professional_info: "INFORMACIÓ PROFESSIONAL",
+    documents_title: "CV i documents.",
+    cv_title: "Currículum Vitae",
+    cv_desc:
+      "Experiència professional, titulacions marítimes i formació addicional.",
+    cv_button: "Veure CV ↗",
+    doc_hint:
+      "Afegeix el CV PDF de cada idioma a la carpeta documents abans de publicar.",
+    enquiries: "CONSULTES PROFESSIONALS",
+    contact_title: "Parlem de la teva pròxima oportunitat a bord.",
+    contact_desc:
+      "Disponible per parlar sobre llocs de treball marítims, oportunitats com a mariner i desenvolupament professional.",
+    footer: "Perfil professional marítim · Coberta · Salvament · Manteniment",
+    top: "TORNAR A DALT ↑",
+  },
+};
+const $ = (s) => document.querySelector(s),
+  menu = $(".menu"),
+  links = $("#links"),
+  lang = $(".lang"),
+  langBtn = $(".lang-toggle"),
+  theme = $(".theme");
+let language = "en";
+function setLanguage(code) {
+  language = code;
+  document.documentElement.lang = code;
+  document.querySelectorAll("[data-t]").forEach((el) => {
+    if (!el.dataset.original) el.dataset.original = el.textContent;
+    el.textContent =
+      code === "en"
+        ? el.dataset.original
+        : dict[code][el.dataset.t] || el.dataset.original;
+  });
+  langBtn.textContent = code.toUpperCase() + " ▾";
+  const paths = {
+    en: "documents/CV.pdf",
+    es: "documents/CV-ES.pdf",
+    ca: "documents/CV-CA.pdf",
+  };
+  document.querySelector('[data-document="cv"]').href = paths[code];
+  try {
+    localStorage.setItem("david-language", code);
+  } catch (e) {}
+  setThemeLabel();
+}
+function setThemeLabel() {
+  const dark = document.body.classList.contains("dark");
+  theme.innerHTML = dark
+    ? "☀ <span>" +
+      { en: "Light", es: "Claro", ca: "Clar" }[language] +
+      "</span>"
+    : "☾ <span>" +
+      { en: "Dark", es: "Oscuro", ca: "Fosc" }[language] +
+      "</span>";
+  theme.setAttribute("aria-pressed", String(dark));
+}
+menu.addEventListener("click", () => {
+  const open = links.classList.toggle("active");
+  menu.setAttribute("aria-expanded", String(open));
+});
+document.querySelectorAll("#links a").forEach((a) =>
+  a.addEventListener("click", () => {
+    links.classList.remove("active");
+    menu.setAttribute("aria-expanded", "false");
+    lang.classList.remove("open");
+  }),
+);
+langBtn.addEventListener("click", () => {
+  const open = lang.classList.toggle("open");
+  langBtn.setAttribute("aria-expanded", String(open));
+});
+document.querySelectorAll("[data-lang]").forEach((b) =>
+  b.addEventListener("click", () => {
+    setLanguage(b.dataset.lang);
+    lang.classList.remove("open");
+    links.classList.remove("active");
+    menu.setAttribute("aria-expanded", "false");
+  }),
+);
+theme.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+  try {
+    localStorage.setItem(
+      "david-theme",
+      document.body.classList.contains("dark") ? "dark" : "light",
+    );
+  } catch (e) {}
+  setThemeLabel();
+});
+try {
+  if (localStorage.getItem("david-theme") === "dark")
+    document.body.classList.add("dark");
+  setLanguage(localStorage.getItem("david-language") || "en");
+} catch (e) {
+  setLanguage("en");
+}
+setThemeLabel();
