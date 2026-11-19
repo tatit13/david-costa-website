@@ -1,3 +1,19 @@
+/* Self-hosted fonts (SIL Open Font License, see fonts/OFL-*.txt). */
+@font-face {
+  font-family: "DM Sans";
+  src: url("fonts/dm-sans.woff") format("woff");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("fonts/manrope.woff") format("woff");
+  font-weight: 500 800;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Design tokens. Light theme on :root; dark overrides on body.dark. */
 :root {
   --ink: #0b1219;

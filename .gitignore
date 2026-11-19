@@ -8,7 +8,7 @@ Desktop.ini
 .idea/
 *.swp
 
-# Claude Code: configuración local del proyecto (no se publica en GitHub Pages)
+# Configuración local del proyecto (no se publica)
 .claude/
 CLAUDE.md
 .impeccable/
