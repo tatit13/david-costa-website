@@ -9,12 +9,8 @@
     />
     <meta name="theme-color" content="#0b1219" />
     <title>David Costa | Maritime Crew</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preload" href="fonts/dm-sans.woff" as="font" type="font/woff" crossorigin />
+    <link rel="preload" href="fonts/manrope.woff" as="font" type="font/woff" crossorigin />
     <script>
       // Hide the page until a stored ES/CA language is applied (no flash).
       try {
@@ -198,151 +194,50 @@
             </h2>
           </div>
           <div class="prose">
-            <p data-t="profile1">
-              I am a calm, responsible and proactive professional with a
-              long-standing background in maritime rescue, water safety and
-              nautical activities. My work has involved operating rescue boats,
-              coordinating lifesaving services and teaching kitesurfing to
-              adults and children.
-            </p>
-            <p data-t="profile2">
-              Alongside my operational experience, I have carried out practical
-              maintenance and repair work on small craft, including fibreglass
-              repairs, hull work, rigging and maintenance of nautical
-              facilities. I enjoy practical work, take responsibility seriously
-              and am motivated to continue developing my career at sea.
-            </p>
-            <p data-t="profile3">
-              I am interested in joining a professional crew in a deckhand or
-              general crew role, particularly on sailing vessels. I am also
-              interested in developing further technical skills within a
-              vessel's engineering department.
-            </p>
+            <p data-t="profile1">Calm, responsible and proactive, with a long background in maritime rescue, water safety and nautical activities: operating rescue boats, coordinating lifesaving services and teaching kitesurfing to adults and children.</p>
+            <p data-t="profile2">I also maintain nautical facilities and repair small craft (fibreglass, hulls, rigging). I enjoy hands-on work and am looking for a deckhand or general crew role, ideally on sailing vessels, while developing technical skills in the engine department.</p>
           </div>
-        </div>
-        <div class="tags">
-          <span data-t="tag_rescue">MARITIME RESCUE</span
-          ><span data-t="tag_kitesurf">KITESURF INSTRUCTION</span
-          ><span data-t="tag_maintenance">VESSEL MAINTENANCE</span
-          ><span data-t="tag_water_safety">WATER SAFETY</span>
         </div>
       </section>
       <section class="section" id="experience">
         <h2 data-t="experience_title">Experience</h2>
-        <div class="timeline">
-          <article>
-            <span class="period">2019 — 2026</span>
-            <div>
-              <h3 data-t="coord_title">Lifesaving Service Coordinator</h3>
-              <small data-t="loc_beach">Castelldefels Beach · Spain</small>
-              <p data-t="coord_desc">
-                Coordination of the beach lifesaving and rescue service,
-                supporting operational organisation, team coordination,
-                prevention and response to incidents in a coastal environment.
-              </p>
-              <div class="chips">
-                <span data-t="chip_team">Team coordination</span
-                ><span data-t="chip_emergency">Emergency response</span
-                ><span data-t="chip_public_safety">Public safety</span>
-              </div>
-            </div>
+        <div class="timeline" data-acc>
+          <article class="xp acc-item">
+            <h3><button class="acc-toggle xp-toggle" type="button" aria-expanded="false" aria-controls="xp-1"><span class="period">2019 — 2026</span><span class="acc-title" data-t="coord_title">Lifesaving Service Coordinator</span><svg class="acc-plus" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 1v10M1 6h10" /></svg></button></h3>
+            <div class="acc-panel" id="xp-1"><div><small data-t="loc_beach">Castelldefels Beach · Spain</small><p data-t="coord_desc">Coordination of the beach lifesaving and rescue service, supporting operational organisation, team coordination, prevention and response to incidents in a coastal environment.</p></div></div>
           </article>
-          <article>
-            <span class="period">2013 — 2026</span>
-            <div>
-              <h3 data-t="skipper_title">Rescue Boat Skipper</h3>
-              <small data-t="loc_beach">Castelldefels Beach · Spain</small>
-              <p data-t="skipper_desc">
-                Skipper of rescue craft in support of beach and aquatic safety
-                operations, with responsibility for boat handling and
-                operational support during rescue activities.
-              </p>
-              <div class="chips">
-                <span data-t="chip_rescue_craft">Rescue craft</span
-                ><span data-t="chip_boat_handling">Boat handling</span
-                ><span data-t="chip_safety">Safety</span>
-              </div>
-            </div>
+          <article class="xp acc-item">
+            <h3><button class="acc-toggle xp-toggle" type="button" aria-expanded="false" aria-controls="xp-2"><span class="period">2013 — 2026</span><span class="acc-title" data-t="skipper_title">Rescue Boat Skipper</span><svg class="acc-plus" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 1v10M1 6h10" /></svg></button></h3>
+            <div class="acc-panel" id="xp-2"><div><small data-t="loc_beach">Castelldefels Beach · Spain</small><p data-t="skipper_desc">Skipper of rescue craft in support of beach and aquatic safety operations, with responsibility for boat handling and operational support during rescue activities.</p></div></div>
           </article>
-          <article>
-            <span class="period">2019 — 2026</span>
-            <div>
-              <h3 data-t="instructor_title">Kitesurf Instructor</h3>
-              <small>Escola Nàutica Garbí · Castelldefels</small>
-              <p data-t="instructor_desc">
-                Delivered kitesurf lessons to students, including children,
-                supporting practical learning and safe participation in
-                water-based nautical activities.
-              </p>
-              <div class="chips">
-                <span data-t="chip_kitesurfing">Kitesurfing</span
-                ><span data-t="chip_instruction">Instruction</span>
-              </div>
-            </div>
+          <article class="xp acc-item">
+            <h3><button class="acc-toggle xp-toggle" type="button" aria-expanded="false" aria-controls="xp-3"><span class="period">2019 — 2026</span><span class="acc-title" data-t="instructor_title">Kitesurf Instructor</span><svg class="acc-plus" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 1v10M1 6h10" /></svg></button></h3>
+            <div class="acc-panel" id="xp-3"><div><small>Escola Nàutica Garbí · Castelldefels</small><p data-t="instructor_desc">Delivered kitesurf lessons to students, including children, supporting practical learning and safe participation in water-based nautical activities.</p></div></div>
           </article>
-          <article>
-            <span class="period">2019 — 2026</span>
-            <div>
-              <h3 data-t="maintenance_title">Vessel Maintenance & Repair</h3>
-              <small>Escola Nàutica Garbí · Castelldefels</small>
-              <p data-t="maintenance_desc">
-                Maintenance of nautical facilities and repair work on small
-                boats, including fibreglass work, hull repairs and maintenance
-                of rigging and fittings.
-              </p>
-              <div class="chips">
-                <span data-t="chip_fibreglass">Fibreglass</span
-                ><span data-t="chip_hull_repairs">Hull repairs</span
-                ><span data-t="chip_rigging">Rigging</span
-                ><span data-t="chip_facility">Facility maintenance</span>
-              </div>
-            </div>
+          <article class="xp acc-item">
+            <h3><button class="acc-toggle xp-toggle" type="button" aria-expanded="false" aria-controls="xp-4"><span class="period">2019 — 2026</span><span class="acc-title" data-t="maintenance_title">Vessel Maintenance & Repair</span><svg class="acc-plus" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 1v10M1 6h10" /></svg></button></h3>
+            <div class="acc-panel" id="xp-4"><div><small>Escola Nàutica Garbí · Castelldefels</small><p data-t="maintenance_desc">Maintenance of nautical facilities and repair work on small boats, including fibreglass work, hull repairs and maintenance of rigging and fittings.</p></div></div>
           </article>
-          <article>
-            <span class="period">2024 — 2026</span>
-            <div>
-              <h3 data-t="trainer_title">Personal Watercraft Rescue Trainer</h3>
-              <small>ISEI · Innovació, Seguretat i Emergència Institut</small>
-              <p data-t="trainer_desc">
-                Delivered rescue training involving personal watercraft
-                operations in 2024, 2025 and 2026.
-              </p>
-            </div>
+          <article class="xp acc-item">
+            <h3><button class="acc-toggle xp-toggle" type="button" aria-expanded="false" aria-controls="xp-5"><span class="period">2024 — 2026</span><span class="acc-title" data-t="trainer_title">Personal Watercraft Rescue Trainer</span><svg class="acc-plus" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 1v10M1 6h10" /></svg></button></h3>
+            <div class="acc-panel" id="xp-5"><div><small>ISEI · Innovació, Seguretat i Emergència Institut</small><p data-t="trainer_desc">Delivered rescue training involving personal watercraft operations in 2024, 2025 and 2026.</p></div></div>
           </article>
-          <article>
-            <span class="period">2010 — 2026</span>
-            <div>
-              <h3 data-t="lifeguard_title">Natural Waters Lifeguard</h3>
-              <small data-t="various"
+          <article class="xp acc-item">
+            <h3><button class="acc-toggle xp-toggle" type="button" aria-expanded="false" aria-controls="xp-6"><span class="period">2010 — 2026</span><span class="acc-title" data-t="lifeguard_title">Natural Waters Lifeguard</span><svg class="acc-plus" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 1v10M1 6h10" /></svg></button></h3>
+            <div class="acc-panel" id="xp-6"><div><small data-t="various"
                 >Various natural aquatic environments</small
-              >
-              <p data-t="lifeguard_desc">
-                Professional lifeguarding experience in natural aquatic
-                environments, focused on prevention, surveillance and response
-                to aquatic emergencies.
-              </p>
-            </div>
+              ><p data-t="lifeguard_desc">Professional lifeguarding experience in natural aquatic environments, focused on prevention, surveillance and response to aquatic emergencies.</p></div></div>
           </article>
-          <article>
-            <span class="period">2011 — 2013</span>
-            <div>
-              <h3 data-t="animal_title">Marine Animal Caretaker</h3>
-              <small data-t="loc_canary">Canary Islands · Spain</small>
-              <p data-t="animal_desc">Worked in the care of marine animals.</p>
-            </div>
+          <article class="xp acc-item">
+            <h3><button class="acc-toggle xp-toggle" type="button" aria-expanded="false" aria-controls="xp-7"><span class="period">2011 — 2013</span><span class="acc-title" data-t="animal_title">Marine Animal Caretaker</span><svg class="acc-plus" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 1v10M1 6h10" /></svg></button></h3>
+            <div class="acc-panel" id="xp-7"><div><small data-t="loc_canary">Canary Islands · Spain</small><p data-t="animal_desc">Worked in the care of marine animals.</p></div></div>
           </article>
-          <article>
-            <span class="period">2008 — 2011</span>
-            <div>
-              <h3 data-t="rope_title">Rope Access & Work at Height</h3>
-              <small
+          <article class="xp acc-item">
+            <h3><button class="acc-toggle xp-toggle" type="button" aria-expanded="false" aria-controls="xp-8"><span class="period">2008 — 2011</span><span class="acc-title" data-t="rope_title">Rope Access & Work at Height</span><svg class="acc-plus" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 1v10M1 6h10" /></svg></button></h3>
+            <div class="acc-panel" id="xp-8"><div><small
                 >Inaccés · KJ Treballs Verticals ·
                 <span data-t="freelance">Freelance</span></small
-              >
-              <p data-t="rope_desc">
-                Carried out rope-access and work-at-height activities.
-              </p>
-            </div>
+              ><p data-t="rope_desc">Carried out rope-access and work-at-height activities.</p></div></div>
           </article>
         </div>
       </section>
@@ -455,17 +350,16 @@
       </section>
       <section class="section" id="skills">
         <h2 data-t="skills_title">What I Can Bring</h2>
-        <div class="skill-list">
-          <div class="skill">
+        <div class="skill-list" data-acc>
+          <div class="skill acc-item">
             <h3>
               <button
-                class="skill-toggle"
+                class="skill-toggle acc-toggle"
                 type="button"
                 aria-expanded="false"
                 aria-controls="skill-1"
               >
-                <span class="skill-num">01</span
-                ><span class="skill-title" data-t="deck_title"
+                <span class="skill-title" data-t="deck_title"
                   >Deck & Kitesurf Activities</span
                 ><svg
                   class="skill-plus"
@@ -482,7 +376,7 @@
                 </svg>
               </button>
             </h3>
-            <div class="skill-panel" id="skill-1">
+            <div class="skill-panel acc-panel" id="skill-1">
               <div>
                 <p data-t="deck_desc">
                   Experience teaching kitesurfing and supporting nautical
@@ -495,16 +389,15 @@
               </div>
             </div>
           </div>
-          <div class="skill">
+          <div class="skill acc-item">
             <h3>
               <button
-                class="skill-toggle"
+                class="skill-toggle acc-toggle"
                 type="button"
                 aria-expanded="false"
                 aria-controls="skill-2"
               >
-                <span class="skill-num">02</span
-                ><span class="skill-title" data-t="marine_title"
+                <span class="skill-title" data-t="marine_title"
                   >Marine Maintenance</span
                 ><svg
                   class="skill-plus"
@@ -521,29 +414,24 @@
                 </svg>
               </button>
             </h3>
-            <div class="skill-panel" id="skill-2">
+            <div class="skill-panel acc-panel" id="skill-2">
               <div>
-                <p data-t="marine_desc">
-                  Hands-on work maintaining nautical facilities and repairing
-                  small craft, including fibreglass, hulls, boats and rigging.
-                  No engine-maintenance experience is claimed in this profile.
-                </p>
+                <p data-t="marine_desc">Facility maintenance and small-craft repair: fibreglass, hulls, boats and rigging. No engine-maintenance experience.</p>
                 <small data-t="skill_tags_marine"
                   >FIBREGLASS · HULLS · RIGGING</small
                 >
               </div>
             </div>
           </div>
-          <div class="skill">
+          <div class="skill acc-item">
             <h3>
               <button
-                class="skill-toggle"
+                class="skill-toggle acc-toggle"
                 type="button"
                 aria-expanded="false"
                 aria-controls="skill-3"
               >
-                <span class="skill-num">03</span
-                ><span class="skill-title" data-t="rescue_title"
+                <span class="skill-title" data-t="rescue_title"
                   >Rescue & Safety Operations</span
                 ><svg
                   class="skill-plus"
@@ -560,7 +448,7 @@
                 </svg>
               </button>
             </h3>
-            <div class="skill-panel" id="skill-3">
+            <div class="skill-panel acc-panel" id="skill-3">
               <div>
                 <p data-t="rescue_desc">
                   Rescue boat skipper and lifesaving service coordination
@@ -573,16 +461,15 @@
               </div>
             </div>
           </div>
-          <div class="skill">
+          <div class="skill acc-item">
             <h3>
               <button
-                class="skill-toggle"
+                class="skill-toggle acc-toggle"
                 type="button"
                 aria-expanded="false"
                 aria-controls="skill-4"
               >
-                <span class="skill-num">04</span
-                ><span class="skill-title" data-t="technical_title"
+                <span class="skill-title" data-t="technical_title"
                   >Technical Development</span
                 ><svg
                   class="skill-plus"
@@ -599,14 +486,9 @@
                 </svg>
               </button>
             </h3>
-            <div class="skill-panel" id="skill-4">
+            <div class="skill-panel acc-panel" id="skill-4">
               <div>
-                <p data-t="technical_desc">
-                  Interested in developing within an engine-room or technical
-                  department. Merchant Navy Engineering Watch Rating
-                  qualification remains subject to completing the required
-                  sea-service days.
-                </p>
+                <p data-t="technical_desc">Keen to grow in the engine room. Engineering Watch Rating pending the required sea-service days.</p>
                 <small data-t="skill_tags_technical"
                   >ENGINE ROOM INTEREST · LEARNING · PRACTICAL WORK</small
                 >
@@ -617,9 +499,9 @@
       </section>
       <section class="section pale" id="qualifications">
         <h2 data-t="qual_title">Qualifications</h2>
-        <div class="qual-grid">
-          <div class="qual-group">
-            <h3>STCW</h3>
+        <div class="qual-acc" data-acc>
+          <div class="qual-group qual-static">
+            <h3 class="qual-head">STCW</h3>
             <ul class="stcw-list">
               <li>
                 <span class="stcw-code">A-VI/1</span>
@@ -732,10 +614,9 @@
               </li>
             </ul>
           </div>
-          <div class="qual-side">
-            <div class="qual-group">
-              <h3 data-t="quals_other">Other qualifications</h3>
-              <ul class="other-list">
+          <div class="qual-group acc-item">
+            <h3><button class="acc-toggle qual-toggle" type="button" aria-expanded="false" aria-controls="qual-2"><span class="acc-title" data-t="quals_other">Other qualifications</span><svg class="acc-plus" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 1v10M1 6h10" /></svg></button></h3>
+            <div class="acc-panel" id="qual-2"><div><ul class="other-list">
                 <li>
                   <div class="q-name">
                     <b data-t="cert_per">Recreational Craft Skipper (PER)</b>
@@ -761,11 +642,11 @@
                     ></span
                   >
                 </li>
-              </ul>
-            </div>
-            <div class="qual-group">
-              <h3 data-t="additional">Additional training</h3>
-              <ul>
+              </ul></div></div>
+          </div>
+          <div class="qual-group acc-item">
+            <h3><button class="acc-toggle qual-toggle" type="button" aria-expanded="false" aria-controls="qual-3"><span class="acc-title" data-t="additional">Additional training</span><svg class="acc-plus" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 1v10M1 6h10" /></svg></button></h3>
+            <div class="acc-panel" id="qual-3"><div><ul>
                 <li><b data-t="cert_lifeguard">Natural Waters Lifeguard</b></li>
                 <li>
                   <b data-t="cert_beach_rescue">Beach Rescue with Boats</b>
@@ -781,19 +662,18 @@
                   <b data-t="cert_welding">Thin Sheet Metal Welding</b
                   ><small>SOC · Servei Públic d'Ocupació de Catalunya</small>
                 </li>
-              </ul>
-            </div>
-            <div class="qual-group">
-              <h3 data-t="languages">Languages</h3>
-              <ul>
-                <li><b data-t="spanish_native">Spanish — Native</b></li>
-                <li><b data-t="catalan_native">Catalan — Native</b></li>
-                <li><b data-t="english_basic">English — Basic</b></li>
-                <li><b data-t="italian_basic">Italian — Basic</b></li>
-              </ul>
-            </div>
+              </ul></div></div>
           </div>
         </div>
+      </section>
+      <section class="section" id="languages">
+        <h2 data-t="languages">Languages</h2>
+        <ul class="lang-list">
+          <li><b data-t="lang_spanish">Spanish</b><small data-t="level_native">Native</small></li>
+          <li><b data-t="lang_catalan">Catalan</b><small data-t="level_native">Native</small></li>
+          <li><b data-t="lang_english">English</b><small data-t="level_basic">Basic</small></li>
+          <li><b data-t="lang_italian">Italian</b><small data-t="level_basic">Basic</small></li>
+        </ul>
       </section>
       <section class="career" id="career">
         <div class="career-copy">
@@ -804,18 +684,17 @@
           </p>
           <div class="career-roles">
             <div>
-              <b>01</b><strong data-t="sailing_crew">Sailing Yacht Crew</strong
+              <strong data-t="sailing_crew">Sailing Yacht Crew</strong
               ><small data-t="sailing_crew_desc">Deckhand / general crew</small>
             </div>
             <div>
-              <b>02</b><strong data-t="deck_dept">Deck Department</strong
+              <strong data-t="deck_dept">Deck Department</strong
               ><small data-t="deck_dept_desc"
                 >Deckhand / maritime operations</small
               >
             </div>
             <div>
-              <b>03</b
-              ><strong data-t="engine_room">Engine Room / Technical</strong
+              <strong data-t="engine_room">Engine Room / Technical</strong
               ><small data-t="engine_room_desc"
                 >Entry-level opportunity with further development</small
               >
