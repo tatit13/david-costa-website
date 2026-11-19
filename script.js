@@ -14,12 +14,8 @@ const dict = {
     available: "Disponible para oportunidades marítimas",
     profile_title:
       "Un profesional marítimo con la seguridad como prioridad.",
-    profile1:
-      "Soy un profesional tranquilo, responsable y proactivo, con una larga trayectoria en salvamento marítimo, seguridad acuática y actividades náuticas. Mi trabajo ha incluido el gobierno de embarcaciones de salvamento, la coordinación de servicios de socorrismo y la enseñanza de kitesurf a adultos y niños.",
-    profile2:
-      "Junto con mi experiencia operativa, he realizado trabajos prácticos de mantenimiento y reparación de embarcaciones pequeñas, incluidos trabajos con fibra de vidrio, reparación de cascos, aparejos y mantenimiento de instalaciones náuticas. Me gustan los trabajos manuales, asumo mis responsabilidades y estoy motivado para seguir desarrollando mi carrera en el mar.",
-    profile3:
-      "Busco incorporarme a una tripulación profesional en un puesto de marinero de cubierta o marinero polivalente, especialmente en embarcaciones de vela. También me interesa seguir desarrollando competencias técnicas en un departamento de máquinas.",
+    profile1: "Profesional tranquilo, responsable y proactivo, con una larga trayectoria en salvamento marítimo, seguridad acuática y actividades náuticas: gobierno de embarcaciones de salvamento, coordinación de servicios de socorrismo y clases de kitesurf para adultos y niños.",
+    profile2: "También mantengo instalaciones náuticas y reparo embarcaciones pequeñas (fibra de vidrio, cascos, aparejos). Disfruto del trabajo práctico y busco un puesto de marinero de cubierta o polivalente, preferiblemente en vela, mientras desarrollo competencias técnicas en el departamento de máquinas.",
     experience_title: "Experiencia",
     coord_title: "Coordinador del Servicio de Salvamento y Socorrismo",
     coord_desc:
@@ -49,14 +45,12 @@ const dict = {
     deck_desc:
       "Experiencia impartiendo kitesurf y apoyando actividades náuticas. Objetivo de desarrollar experiencia profesional a bordo de veleros.",
     marine_title: "Mantenimiento Naval",
-    marine_desc:
-      "Trabajo práctico en mantenimiento de instalaciones náuticas y reparación de embarcaciones pequeñas, incluyendo fibra de vidrio, cascos, botes y aparejos. Este perfil no atribuye experiencia en mantenimiento de motores.",
+    marine_desc: "Mantenimiento de instalaciones y reparación de embarcaciones pequeñas: fibra de vidrio, cascos, botes y aparejos. Sin experiencia en mantenimiento de motores.",
     rescue_title: "Operaciones de Salvamento y Seguridad",
     rescue_desc:
       "Experiencia como patrón de embarcaciones de salvamento y coordinador de servicios de socorrismo, respaldada por trayectoria como socorrista y formador de rescate.",
     technical_title: "Desarrollo Técnico",
-    technical_desc:
-      "Interés en desarrollarse en un departamento de máquinas o técnico. La titulación de Marinero de Máquinas de la Marina Mercante está pendiente de completar los días de navegación requeridos.",
+    technical_desc: "Interés en crecer en el departamento de máquinas. Marinero de Máquinas pendiente de los días de navegación requeridos.",
     qual_title: "Titulaciones",
     status_completed: "Completada",
     pending_note: "Pendiente de completar los días de navegación requeridos",
@@ -80,10 +74,6 @@ const dict = {
     cert_rope: "ANETVA — Trabajos verticales y trabajos en altura",
     cert_welding: "Soldadura de chapa fina",
     languages: "Idiomas",
-    spanish_native: "Español — Nativo",
-    catalan_native: "Catalán — Nativo",
-    english_basic: "Inglés — Básico",
-    italian_basic: "Italiano — Básico",
     career_title: "Próximo paso profesional",
     career_intro:
       "Busco incorporarme a una tripulación donde pueda aportar mi amplia experiencia operativa y mis habilidades prácticas.",
@@ -101,24 +91,8 @@ const dict = {
     top: "VOLVER ARRIBA ↑",
     hero_location: "Barcelona, España",
     alt_hero: "Retrato de David Costa",
-    tag_rescue: "SALVAMENTO MARÍTIMO",
-    tag_kitesurf: "INSTRUCCIÓN DE KITESURF",
-    tag_maintenance: "MANTENIMIENTO DE EMBARCACIONES",
-    tag_water_safety: "SEGURIDAD ACUÁTICA",
     loc_beach: "Playa de Castelldefels · España",
     loc_canary: "Islas Canarias · España",
-    chip_team: "Coordinación de equipos",
-    chip_emergency: "Respuesta ante emergencias",
-    chip_public_safety: "Seguridad pública",
-    chip_rescue_craft: "Embarcaciones de salvamento",
-    chip_boat_handling: "Gobierno de embarcaciones",
-    chip_safety: "Seguridad",
-    chip_kitesurfing: "Kitesurf",
-    chip_instruction: "Instrucción",
-    chip_fibreglass: "Fibra de vidrio",
-    chip_hull_repairs: "Reparación de cascos",
-    chip_rigging: "Aparejos",
-    chip_facility: "Mantenimiento de instalaciones",
     skill_tags_deck: "KITESURF · ACTIVIDADES NÁUTICAS",
     skill_tags_marine: "FIBRA DE VIDRIO · CASCOS · APAREJOS",
     skill_tags_rescue:
@@ -142,6 +116,12 @@ const dict = {
     meta_desc:
       "David Costa — salvamento marítimo, operaciones de cubierta, instrucción de kitesurf y mantenimiento de embarcaciones.",
     freelance: "Autónomo",
+    lang_spanish: "Español",
+    lang_catalan: "Catalán",
+    lang_english: "Inglés",
+    lang_italian: "Italiano",
+    level_native: "Nativo",
+    level_basic: "Básico",
   },
   ca: {
     nav_profile: "Perfil",
@@ -158,12 +138,8 @@ const dict = {
     available: "Disponible per a oportunitats marítimes",
     profile_title:
       "Un professional marítim amb la seguretat com a prioritat.",
-    profile1:
-      "Soc un professional tranquil, responsable i proactiu, amb una llarga trajectòria en salvament marítim, seguretat aquàtica i activitats nàutiques. La meva feina ha inclòs el govern d'embarcacions de salvament, la coordinació de serveis de socorrisme i l'ensenyament de kitesurf a adults i infants.",
-    profile2:
-      "Juntament amb la meva experiència operativa, he fet treballs pràctics de manteniment i reparació d'embarcacions petites, incloent-hi treballs amb fibra de vidre, reparació de cascos, aparells i manteniment d'instal·lacions nàutiques. M'agraden els treballs manuals, assumeixo les meves responsabilitats i estic motivat per continuar desenvolupant la meva carrera al mar.",
-    profile3:
-      "Busco incorporar-me a una tripulació professional en un lloc de mariner de coberta o mariner polivalent, especialment en embarcacions de vela. També m'interessa continuar desenvolupant competències tècniques en un departament de màquines.",
+    profile1: "Professional tranquil, responsable i proactiu, amb una llarga trajectòria en salvament marítim, seguretat aquàtica i activitats nàutiques: govern d'embarcacions de salvament, coordinació de serveis de socorrisme i classes de kitesurf per a adults i infants.",
+    profile2: "També mantinc instal·lacions nàutiques i reparo embarcacions petites (fibra de vidre, cascos, aparells). Gaudeixo de la feina pràctica i busco un lloc de mariner de coberta o polivalent, preferiblement en vela, mentre desenvolupo competències tècniques al departament de màquines.",
     experience_title: "Experiència",
     coord_title: "Coordinador del Servei de Salvament i Socorrisme",
     coord_desc:
@@ -193,14 +169,12 @@ const dict = {
     deck_desc:
       "Experiència impartint kitesurf i donant suport a activitats nàutiques. Objectiu de desenvolupar experiència professional a bord de velers.",
     marine_title: "Manteniment Naval",
-    marine_desc:
-      "Treball pràctic en manteniment d'instal·lacions nàutiques i reparació d'embarcacions petites, incloent-hi fibra de vidre, cascos, bots i aparells. Aquest perfil no atribueix experiència en manteniment de motors.",
+    marine_desc: "Manteniment d'instal·lacions i reparació d'embarcacions petites: fibra de vidre, cascos, bots i aparells. Sense experiència en manteniment de motors.",
     rescue_title: "Operacions de Salvament i Seguretat",
     rescue_desc:
       "Experiència com a patró d'embarcacions de salvament i coordinador de serveis de socorrisme, avalada per la trajectòria com a socorrista i formador de salvament.",
     technical_title: "Desenvolupament Tècnic",
-    technical_desc:
-      "Interès a desenvolupar-se en un departament de màquines o tècnic. La titulació de Mariner de Màquines de la Marina Mercant està pendent de completar els dies de navegació requerits.",
+    technical_desc: "Interès a créixer al departament de màquines. Mariner de Màquines pendent dels dies de navegació requerits.",
     qual_title: "Titulacions",
     status_completed: "Completada",
     pending_note: "Pendent de completar els dies de navegació requerits",
@@ -224,10 +198,6 @@ const dict = {
     cert_rope: "ANETVA — Treballs verticals i treballs en alçada",
     cert_welding: "Soldadura de xapa fina",
     languages: "Idiomes",
-    spanish_native: "Castellà — Nadiu",
-    catalan_native: "Català — Nadiu",
-    english_basic: "Anglès — Bàsic",
-    italian_basic: "Italià — Bàsic",
     career_title: "Següent pas professional",
     career_intro:
       "Busco incorporar-me a una tripulació on pugui aportar la meva àmplia experiència operativa i les meves habilitats pràctiques.",
@@ -245,24 +215,8 @@ const dict = {
     top: "TORNAR A DALT ↑",
     hero_location: "Barcelona, Espanya",
     alt_hero: "Retrat de David Costa",
-    tag_rescue: "SALVAMENT MARÍTIM",
-    tag_kitesurf: "INSTRUCCIÓ DE KITESURF",
-    tag_maintenance: "MANTENIMENT D'EMBARCACIONS",
-    tag_water_safety: "SEGURETAT AQUÀTICA",
     loc_beach: "Platja de Castelldefels · Espanya",
     loc_canary: "Illes Canàries · Espanya",
-    chip_team: "Coordinació d'equips",
-    chip_emergency: "Resposta davant d'emergències",
-    chip_public_safety: "Seguretat pública",
-    chip_rescue_craft: "Embarcacions de salvament",
-    chip_boat_handling: "Govern d'embarcacions",
-    chip_safety: "Seguretat",
-    chip_kitesurfing: "Kitesurf",
-    chip_instruction: "Instrucció",
-    chip_fibreglass: "Fibra de vidre",
-    chip_hull_repairs: "Reparació de cascos",
-    chip_rigging: "Aparells",
-    chip_facility: "Manteniment d'instal·lacions",
     skill_tags_deck: "KITESURF · ACTIVITATS NÀUTIQUES",
     skill_tags_marine: "FIBRA DE VIDRE · CASCOS · APARELLS",
     skill_tags_rescue:
@@ -286,6 +240,12 @@ const dict = {
     meta_desc:
       "David Costa — salvament marítim, operacions de coberta, instrucció de kitesurf i manteniment d'embarcacions.",
     freelance: "Autònom",
+    lang_spanish: "Castellà",
+    lang_catalan: "Català",
+    lang_english: "Anglès",
+    lang_italian: "Italià",
+    level_native: "Nadiu",
+    level_basic: "Bàsic",
   },
 };
 const $ = (s) => document.querySelector(s),
@@ -427,9 +387,7 @@ function captureReadingAnchor() {
   if (window.scrollY <= 0) return null;
   const header = document.querySelector("header");
   const topEdge =
-    header && window.matchMedia("(min-width: 720.02px)").matches
-      ? Math.max(0, header.getBoundingClientRect().bottom)
-      : 0;
+    header ? Math.max(0, header.getBoundingClientRect().bottom) : 0;
   const main = document.getElementById("main"),
     footer = document.querySelector("footer");
   const el = document
@@ -675,63 +633,65 @@ theme.addEventListener("click", () => {
   );
   setup();
 })();
-// "What I Can Bring" accordion. Fine pointers: hover opens (80 ms delay),
-// click pins. Touch: tap toggles, one open at a time.
+// Accordions (experience, "What I Can Bring", qualifications). Each [data-acc]
+// group: fine pointers open on hover (80 ms delay) and click pins; touch taps
+// toggle with one item open at a time.
 (() => {
   const fine = window.matchMedia("(hover: hover) and (pointer: fine)");
-  const items = [...document.querySelectorAll(".skill")].map((el) => ({
-    el,
-    btn: el.querySelector(".skill-toggle"),
-    panel: el.querySelector(".skill-panel"),
-    pinned: false,
-    timer: 0,
-  }));
-  function setOpen(item, open) {
-    clearTimeout(item.timer);
-    if (!open) item.pinned = false;
-    item.panel.classList.toggle("open", open);
-    item.btn.setAttribute("aria-expanded", String(open));
-  }
-  items.forEach((item) => {
-    item.btn.addEventListener("click", (e) => {
-      const open = item.btn.getAttribute("aria-expanded") === "true";
-      if (fine.matches && e.detail === 0) {
-        // Keyboard activation: plain toggle of the visible state.
-        setOpen(item, !open);
-        item.pinned = !open;
-      } else if (fine.matches) {
-        if (item.pinned) setOpen(item, false);
-        else {
-          setOpen(item, true);
-          item.pinned = true;
+  document.querySelectorAll("[data-acc]").forEach((group) => {
+    const items = [...group.querySelectorAll(".acc-item")].map((el) => ({
+      el,
+      btn: el.querySelector(".acc-toggle"),
+      panel: el.querySelector(".acc-panel"),
+      pinned: false,
+      timer: 0,
+    }));
+    function setOpen(item, open) {
+      clearTimeout(item.timer);
+      if (!open) item.pinned = false;
+      item.panel.classList.toggle("open", open);
+      item.btn.setAttribute("aria-expanded", String(open));
+    }
+    items.forEach((item) => {
+      item.btn.addEventListener("click", (e) => {
+        const open = item.btn.getAttribute("aria-expanded") === "true";
+        if (fine.matches && e.detail === 0) {
+          setOpen(item, !open);
+          item.pinned = !open;
+        } else if (fine.matches) {
+          if (item.pinned) setOpen(item, false);
+          else {
+            setOpen(item, true);
+            item.pinned = true;
+          }
+        } else {
+          if (!open)
+            items.forEach((other) => {
+              if (other !== item) setOpen(other, false);
+            });
+          setOpen(item, !open);
         }
-      } else {
-        if (!open)
+      });
+      item.btn.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && item.btn.getAttribute("aria-expanded") === "true")
+          setOpen(item, false);
+      });
+      item.el.addEventListener("mouseenter", () => {
+        if (!fine.matches) return;
+        clearTimeout(item.timer);
+        item.timer = setTimeout(() => {
           items.forEach((other) => {
-            if (other !== item) setOpen(other, false);
+            if (other !== item && !other.pinned) setOpen(other, false);
           });
-        setOpen(item, !open);
-      }
-    });
-    item.btn.addEventListener("keydown", (e) => {
-      if (
-        e.key === "Escape" &&
-        item.btn.getAttribute("aria-expanded") === "true"
-      )
-        setOpen(item, false);
-    });
-    item.el.addEventListener("mouseenter", () => {
-      if (!fine.matches) return;
-      clearTimeout(item.timer);
-      item.timer = setTimeout(() => {
-        item.panel.classList.add("open");
-        item.btn.setAttribute("aria-expanded", "true");
-      }, 80);
-    });
-    item.el.addEventListener("mouseleave", () => {
-      if (!fine.matches) return;
-      clearTimeout(item.timer);
-      if (!item.pinned) setOpen(item, false);
+          item.panel.classList.add("open");
+          item.btn.setAttribute("aria-expanded", "true");
+        }, 80);
+      });
+      item.el.addEventListener("mouseleave", () => {
+        if (!fine.matches) return;
+        clearTimeout(item.timer);
+        if (!item.pinned) setOpen(item, false);
+      });
     });
   });
 })();
@@ -752,3 +712,140 @@ try {
   document.documentElement.classList.remove("i18n-pending");
   setThemeLabel();
 }
+
+// Scroll effects. The header hides on scroll down and returns on scroll up.
+// With no reduced-motion preference: headings rise word by word, the profile
+// text inks in with scroll, and blocks reveal on entering the viewport and
+// reset when they leave through the bottom edge, so they replay.
+(() => {
+  const root = document.documentElement;
+  const header = document.querySelector("header");
+  let lastY = window.scrollY,
+    run = 0;
+  function headerOnScroll() {
+    const y = window.scrollY,
+      dy = y - lastY;
+    lastY = y;
+    if (y < 120 || links.classList.contains("active")) {
+      header.classList.remove("is-hidden");
+      run = 0;
+      return;
+    }
+    if (dy > 0 !== run > 0) run = 0;
+    run += dy;
+    if (run > 6) header.classList.add("is-hidden");
+    else if (run < -6) header.classList.remove("is-hidden");
+  }
+  window.addEventListener("scroll", headerOnScroll, { passive: true });
+
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  root.classList.add("fx");
+
+  function split(el, kind) {
+    let i = 0;
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach((node) => {
+      const frag = document.createDocumentFragment();
+      node.textContent.split(/(\s+)/).forEach((tok) => {
+        if (!tok || /^\s+$/.test(tok)) {
+          frag.appendChild(document.createTextNode(tok));
+          return;
+        }
+        const span = document.createElement("span");
+        if (kind === "w") {
+          span.className = "w";
+          const inner = document.createElement("span");
+          inner.textContent = tok;
+          span.appendChild(inner);
+          span.style.setProperty("--i", i++);
+        } else {
+          span.className = "ink";
+          span.textContent = tok;
+        }
+        frag.appendChild(span);
+      });
+      node.replaceWith(frag);
+    });
+  }
+  const headings = [
+    ...document.querySelectorAll(".hero h1, .section h2, .career h2, .cv-band h2"),
+  ];
+  const inkParas = [...document.querySelectorAll("#profile .prose p")];
+  let inkWords = [];
+  function splitAll() {
+    headings.forEach((h) => {
+      h.classList.add("fx-h");
+      if (!h.querySelector(".w")) split(h, "w");
+    });
+    inkParas.forEach((p) => {
+      if (!p.querySelector(".ink")) split(p, "ink");
+    });
+    inkWords = inkParas.flatMap((p) => [...p.querySelectorAll(".ink")]);
+    updateInk();
+  }
+  const profile = document.getElementById("profile");
+  function updateInk() {
+    const vh = window.innerHeight;
+    if (!profile) return;
+    const r = profile.getBoundingClientRect();
+    if (r.bottom < 0 || r.top > vh) return;
+    inkWords.forEach((w) => {
+      const t = w.getBoundingClientRect().top;
+      const p = Math.min(1, Math.max(0, (vh * 0.9 - t) / (vh * 0.32)));
+      w.style.opacity = (0.12 + 0.88 * p).toFixed(3);
+    });
+  }
+
+  const reveal = [
+    ...document.querySelectorAll(
+      ".hero .eyebrow, .hero h2, .hero .lead, .hero .actions, .hero .availability, .timeline .xp, .skill, .qual-acc .qual-group, .lang-list li, .career-copy > p, .career-roles > div, .cv-copy p",
+    ),
+  ];
+  const media = [...document.querySelectorAll(".hero-photo, .gallery-frame")];
+  reveal.forEach((el) => el.classList.add("fx-r"));
+  media.forEach((el) => el.classList.add("fx-m"));
+  [...reveal, ...media].forEach((el) => {
+    const sibs = [...el.parentElement.children].filter((c) =>
+      c.classList.contains(el.classList.contains("fx-m") ? "fx-m" : "fx-r"),
+    );
+    el.style.setProperty("--d", (Math.min(sibs.indexOf(el), 5) * 70) + "ms");
+  });
+  const targets = [...reveal, ...media, ...headings];
+  const io = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) e.target.classList.add("in");
+        else if (e.boundingClientRect.top > 0) e.target.classList.remove("in");
+      });
+    },
+    { rootMargin: "0px 0px -8% 0px" },
+  );
+  splitAll();
+  targets.forEach((el) => io.observe(el));
+  // At the very bottom the -8% margin can keep the last items out: show them.
+  function revealAtBottom() {
+    if (window.innerHeight + window.scrollY < document.documentElement.scrollHeight - 2) return;
+    targets.forEach((el) => {
+      if (el.getBoundingClientRect().top < window.innerHeight) el.classList.add("in");
+    });
+  }
+  let ticking = false;
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        ticking = false;
+        updateInk();
+        revealAtBottom();
+      });
+    },
+    { passive: true },
+  );
+  window.addEventListener("resize", updateInk);
+  // setLanguage rewrites textContent: split the new words again.
+  document.addEventListener("site:language", splitAll);
+})();
