@@ -1,0 +1,22 @@
+# Sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Claude Code: configuración local del proyecto (no se publica en GitHub Pages)
+.claude/
+CLAUDE.md
+.impeccable/
+
+# Duplicado local de la foto (la web usa images/profile.jpg)
+/profile.jpg
+
+# Temporales y registros
+*.log
+*.tmp
+node_modules/

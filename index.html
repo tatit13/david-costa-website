@@ -1,0 +1,870 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="David Costa — maritime rescue, deck operations, kitesurf instruction and vessel maintenance."
+    />
+    <meta name="theme-color" content="#0b1219" />
+    <title>David Costa | Maritime Crew</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // Hide the page until a stored ES/CA language is applied (no flash).
+      try {
+        const l = localStorage.getItem("david-language");
+        if (l === "es" || l === "ca") {
+          document.documentElement.lang = l;
+          document.documentElement.classList.add("i18n-pending");
+          setTimeout(function () {
+            document.documentElement.classList.remove("i18n-pending");
+          }, 3000);
+        }
+      } catch (e) {}
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <script>
+      // Apply a stored dark theme before the first paint.
+      try {
+        if (localStorage.getItem("david-theme") === "dark")
+          document.body.classList.add("dark");
+      } catch (e) {}
+    </script>
+    <a class="skip" href="#main" data-t="skip">Skip to content</a>
+    <header>
+      <nav class="nav">
+        <a class="brand" href="#home"><b>DC</b> DAVID COSTA</a
+        ><button
+          class="menu"
+          aria-expanded="false"
+          aria-controls="links"
+          aria-label="Menu"
+          data-t-aria="menu_label"
+        >
+          <span aria-hidden="true">☰</span>
+        </button>
+        <ul id="links">
+          <li><a href="#profile" data-t="nav_profile">Profile</a></li>
+          <li><a href="#experience" data-t="nav_experience">Experience</a></li>
+          <li><a href="#skills" data-t="nav_skills">What I Can Bring</a></li>
+          <li>
+            <a href="#qualifications" data-t="nav_qualifications"
+              >Qualifications</a
+            >
+          </li>
+          <li>
+            <a href="#career" data-t="nav_career">Next professional step</a>
+          </li>
+          <li class="lang">
+            <div
+              class="lang-seg"
+              role="group"
+              aria-label="Language"
+              data-t-aria="lang_group_label"
+            >
+              <button
+                type="button"
+                data-lang="en"
+                lang="en"
+                aria-label="EN, English"
+              >
+                EN</button
+              ><button
+                type="button"
+                data-lang="es"
+                lang="es"
+                aria-label="ES, Español"
+              >
+                ES</button
+              ><button
+                type="button"
+                data-lang="ca"
+                lang="ca"
+                aria-label="CA, Català"
+              >
+                CA
+              </button>
+            </div>
+          </li>
+          <li>
+            <button
+              class="theme"
+              type="button"
+              aria-label="Dark theme"
+              data-t-aria="theme_label"
+              aria-pressed="false"
+            >
+              <svg
+                class="i-moon"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z" />
+              </svg>
+              <svg
+                class="i-sun"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <circle cx="12" cy="12" r="4" />
+                <path
+                  d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"
+                />
+              </svg>
+              <span class="theme-text" data-t="theme_label">Dark theme</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <section class="hero" id="home">
+        <div class="hero-inner">
+          <div>
+            <p class="eyebrow" data-t="hero_kicker">Based in Barcelona</p>
+            <h1>DAVID<br /><em>COSTA</em></h1>
+            <h2 data-t="hero_role">
+              Deck Operations · Kitesurf Instruction · Marine Maintenance
+            </h2>
+            <p class="lead" data-t="hero_intro">
+              Maritime professional with extensive experience in rescue-boat
+              operations, lifesaving coordination, kitesurf instruction, and
+              hands-on vessel maintenance.
+            </p>
+            <div class="actions">
+              <a
+                class="btn light"
+                href="documents/CV.pdf"
+                hreflang="en"
+                type="application/pdf"
+                target="_blank"
+                rel="noopener"
+                data-cv
+                ><span data-t="hero_button1">View CV</span>
+                <span aria-hidden="true">↗</span>
+                <span class="visually-hidden" data-t="new_tab"
+                  >(opens in a new tab)</span
+                ></a
+              >
+            </div>
+            <p class="availability">
+              <i></i
+              ><span data-t="available">Open to maritime opportunities</span> ·
+              <span data-t="hero_location">Barcelona, Spain</span>
+            </p>
+          </div>
+          <figure class="hero-photo">
+            <img
+              src="images/profile.jpg"
+              width="749"
+              height="1000"
+              alt="Portrait of David Costa"
+              data-t-alt="alt_hero"
+              fetchpriority="high"
+            />
+          </figure>
+        </div>
+      </section>
+      <section class="section pale" id="profile">
+        <div class="two-col">
+          <div>
+            <h2 data-t="profile_title">
+              A maritime professional with a safety-first mindset.
+            </h2>
+          </div>
+          <div class="prose">
+            <p data-t="profile1">
+              I am a calm, responsible and proactive professional with a
+              long-standing background in maritime rescue, water safety and
+              nautical activities. My work has involved operating rescue boats,
+              coordinating lifesaving services and teaching kitesurfing to
+              adults and children.
+            </p>
+            <p data-t="profile2">
+              Alongside my operational experience, I have carried out practical
+              maintenance and repair work on small craft, including fibreglass
+              repairs, hull work, rigging and maintenance of nautical
+              facilities. I enjoy practical work, take responsibility seriously
+              and am motivated to continue developing my career at sea.
+            </p>
+            <p data-t="profile3">
+              I am interested in joining a professional crew in a deckhand or
+              general crew role, particularly on sailing vessels. I am also
+              interested in developing further technical skills within a
+              vessel's engineering department.
+            </p>
+          </div>
+        </div>
+        <div class="tags">
+          <span data-t="tag_rescue">MARITIME RESCUE</span
+          ><span data-t="tag_kitesurf">KITESURF INSTRUCTION</span
+          ><span data-t="tag_maintenance">VESSEL MAINTENANCE</span
+          ><span data-t="tag_water_safety">WATER SAFETY</span>
+        </div>
+      </section>
+      <section class="section" id="experience">
+        <h2 data-t="experience_title">Experience</h2>
+        <div class="timeline">
+          <article>
+            <span class="period">2019 — 2026</span>
+            <div>
+              <h3 data-t="coord_title">Lifesaving Service Coordinator</h3>
+              <small data-t="loc_beach">Castelldefels Beach · Spain</small>
+              <p data-t="coord_desc">
+                Coordination of the beach lifesaving and rescue service,
+                supporting operational organisation, team coordination,
+                prevention and response to incidents in a coastal environment.
+              </p>
+              <div class="chips">
+                <span data-t="chip_team">Team coordination</span
+                ><span data-t="chip_emergency">Emergency response</span
+                ><span data-t="chip_public_safety">Public safety</span>
+              </div>
+            </div>
+          </article>
+          <article>
+            <span class="period">2013 — 2026</span>
+            <div>
+              <h3 data-t="skipper_title">Rescue Boat Skipper</h3>
+              <small data-t="loc_beach">Castelldefels Beach · Spain</small>
+              <p data-t="skipper_desc">
+                Skipper of rescue craft in support of beach and aquatic safety
+                operations, with responsibility for boat handling and
+                operational support during rescue activities.
+              </p>
+              <div class="chips">
+                <span data-t="chip_rescue_craft">Rescue craft</span
+                ><span data-t="chip_boat_handling">Boat handling</span
+                ><span data-t="chip_safety">Safety</span>
+              </div>
+            </div>
+          </article>
+          <article>
+            <span class="period">2019 — 2026</span>
+            <div>
+              <h3 data-t="instructor_title">Kitesurf Instructor</h3>
+              <small>Escola Nàutica Garbí · Castelldefels</small>
+              <p data-t="instructor_desc">
+                Delivered kitesurf lessons to students, including children,
+                supporting practical learning and safe participation in
+                water-based nautical activities.
+              </p>
+              <div class="chips">
+                <span data-t="chip_kitesurfing">Kitesurfing</span
+                ><span data-t="chip_instruction">Instruction</span>
+              </div>
+            </div>
+          </article>
+          <article>
+            <span class="period">2019 — 2026</span>
+            <div>
+              <h3 data-t="maintenance_title">Vessel Maintenance & Repair</h3>
+              <small>Escola Nàutica Garbí · Castelldefels</small>
+              <p data-t="maintenance_desc">
+                Maintenance of nautical facilities and repair work on small
+                boats, including fibreglass work, hull repairs and maintenance
+                of rigging and fittings.
+              </p>
+              <div class="chips">
+                <span data-t="chip_fibreglass">Fibreglass</span
+                ><span data-t="chip_hull_repairs">Hull repairs</span
+                ><span data-t="chip_rigging">Rigging</span
+                ><span data-t="chip_facility">Facility maintenance</span>
+              </div>
+            </div>
+          </article>
+          <article>
+            <span class="period">2024 — 2026</span>
+            <div>
+              <h3 data-t="trainer_title">Personal Watercraft Rescue Trainer</h3>
+              <small>ISEI · Innovació, Seguretat i Emergència Institut</small>
+              <p data-t="trainer_desc">
+                Delivered rescue training involving personal watercraft
+                operations in 2024, 2025 and 2026.
+              </p>
+            </div>
+          </article>
+          <article>
+            <span class="period">2010 — 2026</span>
+            <div>
+              <h3 data-t="lifeguard_title">Natural Waters Lifeguard</h3>
+              <small data-t="various"
+                >Various natural aquatic environments</small
+              >
+              <p data-t="lifeguard_desc">
+                Professional lifeguarding experience in natural aquatic
+                environments, focused on prevention, surveillance and response
+                to aquatic emergencies.
+              </p>
+            </div>
+          </article>
+          <article>
+            <span class="period">2011 — 2013</span>
+            <div>
+              <h3 data-t="animal_title">Marine Animal Caretaker</h3>
+              <small data-t="loc_canary">Canary Islands · Spain</small>
+              <p data-t="animal_desc">Worked in the care of marine animals.</p>
+            </div>
+          </article>
+          <article>
+            <span class="period">2008 — 2011</span>
+            <div>
+              <h3 data-t="rope_title">Rope Access & Work at Height</h3>
+              <small
+                >Inaccés · KJ Treballs Verticals ·
+                <span data-t="freelance">Freelance</span></small
+              >
+              <p data-t="rope_desc">
+                Carried out rope-access and work-at-height activities.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section
+        class="gallery"
+        id="gallery"
+        aria-roledescription="carousel"
+        aria-label="Photo gallery"
+        data-t-aria="gallery_label"
+      >
+        <!--
+          To add a photo: copy one .gallery-slide block below, update its
+          src / width / height, its aria-label ("n / total" on every slide)
+          and its data-t-alt key, then add that alt key to dict.es and
+          dict.ca in script.js. Arrows, dots, keyboard, swipe and the live
+          region switch on automatically when there are more slides than
+          --per-view (style.css, .gallery).
+        -->
+        <div class="gallery-frame">
+          <div class="gallery-track">
+            <div
+              class="gallery-slide"
+              role="group"
+              aria-roledescription="slide"
+              aria-label="1 / 2"
+            >
+              <img
+                class="gallery-img-1"
+                src="images/gallery-1.jpg"
+                width="2000"
+                height="1333"
+                loading="lazy"
+                decoding="async"
+                alt="Lifeguards carrying a person out of the sea during a beach rescue"
+                data-t-alt="alt_gallery_1"
+              />
+            </div>
+            <div
+              class="gallery-slide"
+              role="group"
+              aria-roledescription="slide"
+              aria-label="2 / 2"
+            >
+              <img
+                class="gallery-img-2"
+                src="images/gallery-2.jpg"
+                width="923"
+                height="2000"
+                loading="lazy"
+                decoding="async"
+                alt="Rescuer on a personal watercraft during a water rescue"
+                data-t-alt="alt_gallery_2"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="gallery-controls" hidden>
+          <button
+            class="gallery-arrow gallery-prev"
+            type="button"
+            aria-label="Previous photo"
+            data-t-aria="gallery_prev"
+            disabled
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="M10 3 5 8l5 5" />
+            </svg>
+          </button>
+          <!-- Dots are built by script.js, one per scroll position. -->
+          <div class="gallery-dots" data-label="Photo {n}"></div>
+          <button
+            class="gallery-arrow gallery-next"
+            type="button"
+            aria-label="Next photo"
+            data-t-aria="gallery_next"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="M6 3l5 5-5 5" />
+            </svg>
+          </button>
+        </div>
+        <p
+          class="visually-hidden gallery-status"
+          aria-live="polite"
+          data-status="Photo {n} of {total}"
+          data-status-range="Photos {from}–{to} of {total}"
+        ></p>
+      </section>
+      <section class="section" id="skills">
+        <h2 data-t="skills_title">What I Can Bring</h2>
+        <div class="skill-list">
+          <div class="skill">
+            <h3>
+              <button
+                class="skill-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="skill-1"
+              >
+                <span class="skill-num">01</span
+                ><span class="skill-title" data-t="deck_title"
+                  >Deck & Kitesurf Activities</span
+                ><svg
+                  class="skill-plus"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M6 1v10M1 6h10" />
+                </svg>
+              </button>
+            </h3>
+            <div class="skill-panel" id="skill-1">
+              <div>
+                <p data-t="deck_desc">
+                  Experience teaching kitesurfing and supporting nautical
+                  activities. Seeking to build professional experience aboard
+                  sailing yachts.
+                </p>
+                <small data-t="skill_tags_deck"
+                  >KITESURF · NAUTICAL ACTIVITIES</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <h3>
+              <button
+                class="skill-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="skill-2"
+              >
+                <span class="skill-num">02</span
+                ><span class="skill-title" data-t="marine_title"
+                  >Marine Maintenance</span
+                ><svg
+                  class="skill-plus"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M6 1v10M1 6h10" />
+                </svg>
+              </button>
+            </h3>
+            <div class="skill-panel" id="skill-2">
+              <div>
+                <p data-t="marine_desc">
+                  Hands-on work maintaining nautical facilities and repairing
+                  small craft, including fibreglass, hulls, boats and rigging.
+                  No engine-maintenance experience is claimed in this profile.
+                </p>
+                <small data-t="skill_tags_marine"
+                  >FIBREGLASS · HULLS · RIGGING</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <h3>
+              <button
+                class="skill-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="skill-3"
+              >
+                <span class="skill-num">03</span
+                ><span class="skill-title" data-t="rescue_title"
+                  >Rescue & Safety Operations</span
+                ><svg
+                  class="skill-plus"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M6 1v10M1 6h10" />
+                </svg>
+              </button>
+            </h3>
+            <div class="skill-panel" id="skill-3">
+              <div>
+                <p data-t="rescue_desc">
+                  Rescue boat skipper and lifesaving service coordination
+                  experience, supported by lifeguarding and rescue-training
+                  background.
+                </p>
+                <small data-t="skill_tags_rescue"
+                  >RESCUE CRAFT · SAFETY · TEAMWORK</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <h3>
+              <button
+                class="skill-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="skill-4"
+              >
+                <span class="skill-num">04</span
+                ><span class="skill-title" data-t="technical_title"
+                  >Technical Development</span
+                ><svg
+                  class="skill-plus"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M6 1v10M1 6h10" />
+                </svg>
+              </button>
+            </h3>
+            <div class="skill-panel" id="skill-4">
+              <div>
+                <p data-t="technical_desc">
+                  Interested in developing within an engine-room or technical
+                  department. Merchant Navy Engineering Watch Rating
+                  qualification remains subject to completing the required
+                  sea-service days.
+                </p>
+                <small data-t="skill_tags_technical"
+                  >ENGINE ROOM INTEREST · LEARNING · PRACTICAL WORK</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section pale" id="qualifications">
+        <h2 data-t="qual_title">Qualifications</h2>
+        <div class="qual-grid">
+          <div class="qual-group">
+            <h3>STCW</h3>
+            <ul class="stcw-list">
+              <li>
+                <span class="stcw-code">A-VI/1</span>
+                <div class="q-name">
+                  <b data-t="cert_basic_safety">Basic Safety Training</b
+                  ><small>ISM Tarragona</small>
+                </div>
+                <span class="q-status done"
+                  ><i aria-hidden="true"></i
+                  ><span class="visually-hidden" data-t="status_completed"
+                    >Completed</span
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="stcw-code">A-IV/2</span>
+                <div class="q-name">
+                  <b data-t="cert_gmdss"
+                    >Restricted Operator's Certificate — GMDSS</b
+                  ><small>ISM Barcelona</small>
+                </div>
+                <span class="q-status done"
+                  ><i aria-hidden="true"></i
+                  ><span class="visually-hidden" data-t="status_completed"
+                    >Completed</span
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="stcw-code">A-VI/4-1</span>
+                <div class="q-name">
+                  <b data-t="cert_medical">Initial Specific Medical Training</b
+                  ><small>ISM Barcelona</small>
+                </div>
+                <span class="q-status done"
+                  ><i aria-hidden="true"></i
+                  ><span class="visually-hidden" data-t="status_completed"
+                    >Completed</span
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="stcw-code">A-VI/2-1</span>
+                <div class="q-name">
+                  <b data-t="cert_survival_craft"
+                    >Survival Craft & Rescue Boats (other than fast rescue
+                    boats)</b
+                  ><small>ISM Bamio</small>
+                </div>
+                <span class="q-status done"
+                  ><i aria-hidden="true"></i
+                  ><span class="visually-hidden" data-t="status_completed"
+                    >Completed</span
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="stcw-code">A-VI/2-2</span>
+                <div class="q-name">
+                  <b data-t="cert_fast_rescue">Fast Rescue Boats</b
+                  ><small>ISM Barcelona</small>
+                </div>
+                <span class="q-status done"
+                  ><i aria-hidden="true"></i
+                  ><span class="visually-hidden" data-t="status_completed"
+                    >Completed</span
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="stcw-code">A-V/2</span>
+                <div class="q-name">
+                  <b data-t="cert_passenger">Passenger Ships</b
+                  ><small>ISM Barcelona</small>
+                </div>
+                <span class="q-status done"
+                  ><i aria-hidden="true"></i
+                  ><span class="visually-hidden" data-t="status_completed"
+                    >Completed</span
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="stcw-code">A-II/4</span>
+                <div class="q-name">
+                  <b data-t="cert_nav_watch"
+                    >Rating Forming Part of a Navigational Watch</b
+                  ><small>ISM Bamio</small>
+                </div>
+                <span class="q-status pending"
+                  ><i aria-hidden="true"></i
+                  ><small data-t="pending_note"
+                    >Pending required sea-service days</small
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="stcw-code">A-III/4</span>
+                <div class="q-name">
+                  <b data-t="cert_engine_watch"
+                    >Rating Forming Part of an Engineering Watch</b
+                  ><small>ISM Barcelona</small>
+                </div>
+                <span class="q-status pending"
+                  ><i aria-hidden="true"></i
+                  ><small data-t="pending_note"
+                    >Pending required sea-service days</small
+                  ></span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="qual-side">
+            <div class="qual-group">
+              <h3 data-t="quals_other">Other qualifications</h3>
+              <ul class="other-list">
+                <li>
+                  <div class="q-name">
+                    <b data-t="cert_per">Recreational Craft Skipper (PER)</b>
+                  </div>
+                  <span class="q-status done"
+                    ><i aria-hidden="true"></i
+                    ><span class="visually-hidden" data-t="status_completed"
+                      >Completed</span
+                    ></span
+                  >
+                </li>
+                <li>
+                  <div class="q-name">
+                    <b data-t="cert_port_skippers"
+                      >Port Skipper with Command (Patrón Portuario con
+                      Mando)</b
+                    ><small>ISM Barcelona</small>
+                  </div>
+                  <span class="q-status done"
+                    ><i aria-hidden="true"></i
+                    ><span class="visually-hidden" data-t="status_completed"
+                      >Completed</span
+                    ></span
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="qual-group">
+              <h3 data-t="additional">Additional training</h3>
+              <ul>
+                <li><b data-t="cert_lifeguard">Natural Waters Lifeguard</b></li>
+                <li>
+                  <b data-t="cert_beach_rescue">Beach Rescue with Boats</b>
+                </li>
+                <li>
+                  <b data-t="cert_aed">Automated External Defibrillator (AED)</b>
+                </li>
+                <li><b data-t="cert_diver">Open Water Diver</b></li>
+                <li>
+                  <b data-t="cert_rope">ANETVA — Rope Access & Work at Height</b>
+                </li>
+                <li>
+                  <b data-t="cert_welding">Thin Sheet Metal Welding</b
+                  ><small>SOC · Servei Públic d'Ocupació de Catalunya</small>
+                </li>
+              </ul>
+            </div>
+            <div class="qual-group">
+              <h3 data-t="languages">Languages</h3>
+              <ul>
+                <li><b data-t="spanish_native">Spanish — Native</b></li>
+                <li><b data-t="catalan_native">Catalan — Native</b></li>
+                <li><b data-t="english_basic">English — Basic</b></li>
+                <li><b data-t="italian_basic">Italian — Basic</b></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="career" id="career">
+        <div class="career-copy">
+          <h2 data-t="career_title">Next professional step</h2>
+          <p data-t="career_intro">
+            I am looking to join a crew where I can bring my extensive
+            operational experience and my practical skills.
+          </p>
+          <div class="career-roles">
+            <div>
+              <b>01</b><strong data-t="sailing_crew">Sailing Yacht Crew</strong
+              ><small data-t="sailing_crew_desc">Deckhand / general crew</small>
+            </div>
+            <div>
+              <b>02</b><strong data-t="deck_dept">Deck Department</strong
+              ><small data-t="deck_dept_desc"
+                >Deckhand / maritime operations</small
+              >
+            </div>
+            <div>
+              <b>03</b
+              ><strong data-t="engine_room">Engine Room / Technical</strong
+              ><small data-t="engine_room_desc"
+                >Entry-level opportunity with further development</small
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cv-band" id="documents">
+        <div class="cv-copy">
+          <h2 data-t="documents_title">Download my CV</h2>
+          <p data-t="cv_desc">
+            Professional experience, maritime qualifications and additional
+            training.
+          </p>
+        </div>
+        <a
+          class="cv-btn"
+          id="cv-download"
+          data-cv
+          href="documents/CV.pdf"
+          hreflang="en"
+          type="application/pdf"
+          target="_blank"
+          rel="noopener"
+          ><svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M12.5 9v3.5a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1H7M9.5 2.5h4v4M13.5 2.5 7.5 8.5"
+            /></svg
+          ><span data-t="cv_download">View CV (PDF)</span>
+          <span class="visually-hidden" data-t="new_tab"
+            >(opens in a new tab)</span
+          ></a
+        >
+      </section>
+    </main>
+    <footer>
+      <span>© 2026 David Costa</span
+      ><a href="#home" data-t="top">BACK TO TOP ↑</a>
+    </footer>
+  </body>
+</html>
